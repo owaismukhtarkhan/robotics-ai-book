@@ -86,9 +86,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'My Site',
+      title: 'Physical AI Book',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Physical AI Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -96,11 +96,11 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Textbook',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'News', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/owaismukhtarkhan/robotics-ai-book',
           label: 'GitHub',
           position: 'right',
         },
@@ -110,11 +110,15 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Curriculum',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Introduction',
               to: '/docs/intro',
+            },
+            {
+              label: 'Module 1: Nervous System',
+              to: '/docs/module-1-robotic-nervous-system/',
             },
           ],
         },
@@ -122,16 +126,8 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'GitHub Discussions',
+              href: 'https://github.com/owaismukhtarkhan/robotics-ai-book/discussions',
             },
           ],
         },
@@ -139,17 +135,17 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
+              label: 'News',
               to: '/blog',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/owaismukhtarkhan/robotics-ai-book',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Owais Mukhtar Khan. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
