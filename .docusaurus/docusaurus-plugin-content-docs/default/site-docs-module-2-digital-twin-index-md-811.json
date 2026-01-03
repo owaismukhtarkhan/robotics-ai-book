@@ -1,0 +1,24 @@
+{
+  "id": "module-2-digital-twin/index",
+  "title": "Module 2: The Digital Twin",
+  "description": "In this module, we explore the world of high-fidelity robotic simulation. A Digital Twin is a virtual representation of a physical robot that allows for safe, cost-effective testing of algorithms before deployment.",
+  "source": "@site/docs/module-2-digital-twin/index.md",
+  "sourceDirName": "module-2-digital-twin",
+  "slug": "/module-2-digital-twin/",
+  "permalink": "/robotics-ai-book/docs/module-2-digital-twin/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 1: Robotic Nervous System",
+    "permalink": "/robotics-ai-book/docs/module-1-robotic-nervous-system/"
+  },
+  "next": {
+    "title": "Synthetic Sensors in Simulation",
+    "permalink": "/robotics-ai-book/docs/module-2-digital-twin/sensors"
+  }
+}

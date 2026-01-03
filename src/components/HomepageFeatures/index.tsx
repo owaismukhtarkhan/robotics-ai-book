@@ -11,32 +11,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Embodied Intelligence',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Transition from digital-only LLVMs to Physical AI. Learn how to bridge the gap between
+        reasoning and real-world execution.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Digital Twin Strategy',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Master high-fidelity simulation using ROS 2, NVIDIA Isaac Sim, and Gazebo to
+        safely iterate on humanoid movement.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'VLA Foundations',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Implement Vision-Language-Action pipelines to build conversational robotics
+        that respond to complex natural language.
       </>
     ),
   },

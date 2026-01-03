@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/robotics-ai-book/__docusaurus/debug',
+    component: ComponentCreator('/robotics-ai-book/__docusaurus/debug', '861'),
+    exact: true
+  },
+  {
+    path: '/robotics-ai-book/__docusaurus/debug/config',
+    component: ComponentCreator('/robotics-ai-book/__docusaurus/debug/config', '150'),
+    exact: true
+  },
+  {
+    path: '/robotics-ai-book/__docusaurus/debug/content',
+    component: ComponentCreator('/robotics-ai-book/__docusaurus/debug/content', '154'),
+    exact: true
+  },
+  {
+    path: '/robotics-ai-book/__docusaurus/debug/globalData',
+    component: ComponentCreator('/robotics-ai-book/__docusaurus/debug/globalData', '7e6'),
+    exact: true
+  },
+  {
+    path: '/robotics-ai-book/__docusaurus/debug/metadata',
+    component: ComponentCreator('/robotics-ai-book/__docusaurus/debug/metadata', 'e8f'),
+    exact: true
+  },
+  {
+    path: '/robotics-ai-book/__docusaurus/debug/registry',
+    component: ComponentCreator('/robotics-ai-book/__docusaurus/debug/registry', '0ee'),
+    exact: true
+  },
+  {
+    path: '/robotics-ai-book/__docusaurus/debug/routes',
+    component: ComponentCreator('/robotics-ai-book/__docusaurus/debug/routes', 'c65'),
+    exact: true
+  },
+  {
     path: '/robotics-ai-book/blog',
     component: ComponentCreator('/robotics-ai-book/blog', 'fed'),
     exact: true
@@ -79,52 +114,16 @@ export default [
   },
   {
     path: '/robotics-ai-book/docs',
-    component: ComponentCreator('/robotics-ai-book/docs', '425'),
+    component: ComponentCreator('/robotics-ai-book/docs', 'e0e'),
     routes: [
       {
         path: '/robotics-ai-book/docs',
-        component: ComponentCreator('/robotics-ai-book/docs', '036'),
+        component: ComponentCreator('/robotics-ai-book/docs', '0b0'),
         routes: [
           {
             path: '/robotics-ai-book/docs',
-            component: ComponentCreator('/robotics-ai-book/docs', 'a8c'),
+            component: ComponentCreator('/robotics-ai-book/docs', '2ae'),
             routes: [
-              {
-                path: '/robotics-ai-book/docs/body',
-                component: ComponentCreator('/robotics-ai-book/docs/body', '018'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/robotics-ai-book/docs/brain',
-                component: ComponentCreator('/robotics-ai-book/docs/brain', '04d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/robotics-ai-book/docs/category/tutorial---basics',
-                component: ComponentCreator('/robotics-ai-book/docs/category/tutorial---basics', 'a63'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/robotics-ai-book/docs/category/tutorial---extras',
-                component: ComponentCreator('/robotics-ai-book/docs/category/tutorial---extras', '9ac'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/robotics-ai-book/docs/edge',
-                component: ComponentCreator('/robotics-ai-book/docs/edge', '5e7'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/robotics-ai-book/docs/foundations',
-                component: ComponentCreator('/robotics-ai-book/docs/foundations', '9df'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
               {
                 path: '/robotics-ai-book/docs/hardware-lab',
                 component: ComponentCreator('/robotics-ai-book/docs/hardware-lab', '1e0'),
@@ -144,50 +143,26 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/robotics-ai-book/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/robotics-ai-book/docs/tutorial-basics/congratulations', '963'),
+                path: '/robotics-ai-book/docs/module-2-digital-twin',
+                component: ComponentCreator('/robotics-ai-book/docs/module-2-digital-twin', 'aa7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/robotics-ai-book/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/robotics-ai-book/docs/tutorial-basics/create-a-blog-post', '50c'),
+                path: '/robotics-ai-book/docs/module-2-digital-twin/sensors',
+                component: ComponentCreator('/robotics-ai-book/docs/module-2-digital-twin/sensors', '569'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/robotics-ai-book/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/robotics-ai-book/docs/tutorial-basics/create-a-document', '1d9'),
+                path: '/robotics-ai-book/docs/module-3-ai-robot-brain',
+                component: ComponentCreator('/robotics-ai-book/docs/module-3-ai-robot-brain', '3af'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/robotics-ai-book/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/robotics-ai-book/docs/tutorial-basics/create-a-page', '8c9'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/robotics-ai-book/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/robotics-ai-book/docs/tutorial-basics/deploy-your-site', 'aef'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/robotics-ai-book/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/robotics-ai-book/docs/tutorial-basics/markdown-features', 'd6c'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/robotics-ai-book/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/robotics-ai-book/docs/tutorial-extras/manage-docs-versions', '63d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/robotics-ai-book/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/robotics-ai-book/docs/tutorial-extras/translate-your-site', 'cb9'),
+                path: '/robotics-ai-book/docs/module-4-vla-capstone',
+                component: ComponentCreator('/robotics-ai-book/docs/module-4-vla-capstone', '755'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

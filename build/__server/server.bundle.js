@@ -1,6 +1,187 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ 27
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   assets: () => (/* binding */ assets),
+/* harmony export */   contentTitle: () => (/* binding */ contentTitle),
+/* harmony export */   "default": () => (/* binding */ MDXContent),
+/* harmony export */   frontMatter: () => (/* binding */ frontMatter),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_docs_default_site_docs_module_4_vla_capstone_index_md_405_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   toc: () => (/* binding */ toc)
+/* harmony export */ });
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_docs_default_site_docs_module_4_vla_capstone_index_md_405_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6252);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(74848);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(28453);
+
+
+const frontMatter = {};
+const contentTitle = 'Module 4: Vision-Language-Action (VLA)';
+
+const assets = {
+
+};
+
+
+
+const toc = [{
+  "value": "The VLA Pipeline",
+  "id": "the-vla-pipeline",
+  "level": 2
+}, {
+  "value": "Capstone Project Requirements",
+  "id": "capstone-project-requirements",
+  "level": 2
+}, {
+  "value": "Weekly Breakdown",
+  "id": "weekly-breakdown",
+  "level": 2
+}, {
+  "value": "Week 9: Cognitive Planning",
+  "id": "week-9-cognitive-planning",
+  "level": 3
+}, {
+  "value": "Week 10: Motion Control",
+  "id": "week-10-motion-control",
+  "level": 3
+}, {
+  "value": "Week 11-12: VLA Integration &amp; Capstone",
+  "id": "week-11-12-vla-integration--capstone",
+  "level": 3
+}, {
+  "value": "Week 13: Final Lab Demo",
+  "id": "week-13-final-lab-demo",
+  "level": 3
+}];
+function _createMdxContent(props) {
+  const _components = {
+    a: "a",
+    h1: "h1",
+    h2: "h2",
+    h3: "h3",
+    header: "header",
+    li: "li",
+    ol: "ol",
+    p: "p",
+    strong: "strong",
+    ul: "ul",
+    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
+    ...props.components
+  };
+  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
+    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.header, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h1, {
+        id: "module-4-vision-language-action-vla",
+        children: "Module 4: Vision-Language-Action (VLA)"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: "The final module explores the convergence of Large Language Models (LLMs) and physical robotics, creating robots that can understand and execute human instructions."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "the-vla-pipeline",
+      children: "The VLA Pipeline"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: "We move beyond hard-coded scripts to conversational robotics using a three-stage pipeline:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ol, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Perception (Whisper):"
+        }), " Converts spoken human commands into text."]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Cognition (LLM):"
+        }), " Reasons about the command and decomposes it into sub-tasks (e.g., \"Go to the kitchen\" -> 1. Locate door, 2. Navigate, 3. Detect kitchen)."]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Action (ROS 2):"
+        }), " Sends velocity and joint commands to the physical or simulated actuators."]
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "capstone-project-requirements",
+      children: "Capstone Project Requirements"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: "The final project requires building a \"Conversational Humanoid Agent.\""
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+        children: "Features Required:"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Autonomous navigation through a dynamic environment."
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Voice-activated task execution (e.g., \"Pick up the blue cube\")."
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Real-time obstacle avoidance."
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Status reporting back via speech synthesis."
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
+      children: ["Refer to ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
+        href: "/robotics-ai-book/docs/hardware-lab/",
+        children: "Hardware Lab"
+      }), " for Tier Options (B or C) suitable for this capstone."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "weekly-breakdown",
+      children: "Weekly Breakdown"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
+      id: "week-9-cognitive-planning",
+      children: "Week 9: Cognitive Planning"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Interfacing GPT-4o or Claude 3.5 with the ROS 2 environment."
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Writing task decomposition prompts."
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
+      id: "week-10-motion-control",
+      children: "Week 10: Motion Control"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: ["Implementing ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Reinforcement Learning"
+        }), " for bipedal gait."]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Balance recovery algorithms in Isaac Sim."
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
+      id: "week-11-12-vla-integration--capstone",
+      children: "Week 11-12: VLA Integration & Capstone"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Integrating Whisper for speech-to-text."
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Finalizing the full perception-cognition-action loop."
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
+      id: "week-13-final-lab-demo",
+      children: "Week 13: Final Lab Demo"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Live demonstration of the autonomous conversational agent."
+      }), "\n"]
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = {
+    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
+    ...props.components
+  };
+  return MDXLayout ? (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(MDXLayout, {
+    ...props,
+    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_createMdxContent, {
+      ...props
+    })
+  }) : _createMdxContent(props);
+}
+
+
+
+/***/ },
+
 /***/ 38
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -2393,6 +2574,14 @@ exports.version = "19.2.3";
  */function Separator(){return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span",{className:"footer__link-separator",children:"\xB7"});}function SimpleLinkItem({item}){return item.html?/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("span",{className:(0,clsx__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('footer__link-item',item.className)// Developer provided the HTML, so assume it's safe.
 // eslint-disable-next-line react/no-danger
 ,dangerouslySetInnerHTML:{__html:item.html}}):/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_theme_Footer_LinkItem__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .A,{item:item});}function FooterLinksSimple({links}){return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div",{className:"footer__links text--center",children:/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div",{className:"footer__links",children:links.map((item,i)=>/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment,{children:[/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(SimpleLinkItem,{item:item}),links.length!==i+1&&/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(Separator,{})]},i))})});}
+
+/***/ },
+
+/***/ 6252
+(module) {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"id":"module-4-vla-capstone/index","title":"Module 4: Vision-Language-Action (VLA)","description":"The final module explores the convergence of Large Language Models (LLMs) and physical robotics, creating robots that can understand and execute human instructions.","source":"@site/docs/module-4-vla-capstone/index.md","sourceDirName":"module-4-vla-capstone","slug":"/module-4-vla-capstone/","permalink":"/robotics-ai-book/docs/module-4-vla-capstone/","draft":false,"unlisted":false,"editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-4-vla-capstone/index.md","tags":[],"version":"current","frontMatter":{},"sidebar":"tutorialSidebar","previous":{"title":"Module 3: The AI-Robot Brain","permalink":"/robotics-ai-book/docs/module-3-ai-robot-brain/"}}');
 
 /***/ },
 
@@ -6304,6 +6493,242 @@ __webpack_require__.r(__webpack_exports__);
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function DocRootLayoutSidebarExpandButton({toggleSidebar}){return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div",{className:(_styles_module_css__WEBPACK_IMPORTED_MODULE_3___default().expandButton),title:(0,_docusaurus_Translate__WEBPACK_IMPORTED_MODULE_1__/* .translate */ .T)({id:'theme.docs.sidebar.expandButtonTitle',message:'Expand sidebar',description:'The ARIA label and title attribute for expand button of doc sidebar'}),"aria-label":(0,_docusaurus_Translate__WEBPACK_IMPORTED_MODULE_1__/* .translate */ .T)({id:'theme.docs.sidebar.expandButtonAriaLabel',message:'Expand sidebar',description:'The ARIA label and title attribute for expand button of doc sidebar'}),tabIndex:0,role:"button",onKeyDown:toggleSidebar,onClick:toggleSidebar,children:/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_theme_Icon_Arrow__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .A,{className:(_styles_module_css__WEBPACK_IMPORTED_MODULE_3___default().expandButtonIcon)})});}
+
+/***/ },
+
+/***/ 29553
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   assets: () => (/* binding */ assets),
+/* harmony export */   contentTitle: () => (/* binding */ contentTitle),
+/* harmony export */   "default": () => (/* binding */ MDXContent),
+/* harmony export */   frontMatter: () => (/* binding */ frontMatter),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_docs_default_site_docs_module_2_digital_twin_index_md_811_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   toc: () => (/* binding */ toc)
+/* harmony export */ });
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_docs_default_site_docs_module_2_digital_twin_index_md_811_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(44755);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(74848);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(28453);
+
+
+const frontMatter = {};
+const contentTitle = 'Module 2: The Digital Twin';
+
+const assets = {
+
+};
+
+
+
+const toc = [{
+  "value": "Simulation Platforms: Gazebo vs. Unity",
+  "id": "simulation-platforms-gazebo-vs-unity",
+  "level": 2
+}, {
+  "value": "The Simulation Loop",
+  "id": "the-simulation-loop",
+  "level": 2
+}, {
+  "value": "Weekly Breakdown",
+  "id": "weekly-breakdown",
+  "level": 2
+}, {
+  "value": "Week 4: Gazebo Physics Setup",
+  "id": "week-4-gazebo-physics-setup",
+  "level": 3
+}, {
+  "value": "Week 5: Sensor Fusion",
+  "id": "week-5-sensor-fusion",
+  "level": 3
+}];
+function _createMdxContent(props) {
+  const _components = {
+    a: "a",
+    code: "code",
+    h1: "h1",
+    h2: "h2",
+    h3: "h3",
+    header: "header",
+    li: "li",
+    p: "p",
+    pre: "pre",
+    strong: "strong",
+    table: "table",
+    tbody: "tbody",
+    td: "td",
+    th: "th",
+    thead: "thead",
+    tr: "tr",
+    ul: "ul",
+    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
+    ...props.components
+  };
+  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
+    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.header, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h1, {
+        id: "module-2-the-digital-twin",
+        children: "Module 2: The Digital Twin"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
+      children: ["In this module, we explore the world of high-fidelity robotic simulation. A ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+        children: "Digital Twin"
+      }), " is a virtual representation of a physical robot that allows for safe, cost-effective testing of algorithms before deployment."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "simulation-platforms-gazebo-vs-unity",
+      children: "Simulation Platforms: Gazebo vs. Unity"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.table, {
+      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.thead, {
+        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.tr, {
+          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.th, {
+            style: {
+              textAlign: "left"
+            },
+            children: "Feature"
+          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.th, {
+            style: {
+              textAlign: "left"
+            },
+            children: "Gazebo"
+          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.th, {
+            style: {
+              textAlign: "left"
+            },
+            children: "Unity / Isaac Sim"
+          })]
+        })
+      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.tbody, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.tr, {
+          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
+            style: {
+              textAlign: "left"
+            },
+            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+              children: "Primary Use"
+            })
+          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
+            style: {
+              textAlign: "left"
+            },
+            children: "Physics validation, collision testing"
+          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
+            style: {
+              textAlign: "left"
+            },
+            children: "High-fidelity rendering, HRI, AI training"
+          })]
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.tr, {
+          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
+            style: {
+              textAlign: "left"
+            },
+            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+              children: "Physics Engine"
+            })
+          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
+            style: {
+              textAlign: "left"
+            },
+            children: "ODE, Bullet, DART"
+          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
+            style: {
+              textAlign: "left"
+            },
+            children: "PhysX"
+          })]
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.tr, {
+          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
+            style: {
+              textAlign: "left"
+            },
+            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+              children: "Rendering"
+            })
+          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
+            style: {
+              textAlign: "left"
+            },
+            children: "Ogre"
+          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
+            style: {
+              textAlign: "left"
+            },
+            children: "High Definition Render Pipeline (HDRP)"
+          })]
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.tr, {
+          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
+            style: {
+              textAlign: "left"
+            },
+            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+              children: "Strengths"
+            })
+          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
+            style: {
+              textAlign: "left"
+            },
+            children: "Accurate mechanical interaction"
+          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.td, {
+            style: {
+              textAlign: "left"
+            },
+            children: "Photorealistic sensors, complex environments"
+          })]
+        })]
+      })]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "the-simulation-loop",
+      children: "The Simulation Loop"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: "The interaction between the virtual robot and its environment follows a continuous loop:"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.pre, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
+        className: "language-mermaid",
+        children: "graph LR\n    A[Physics Engine] -->|State Update| B[Synthetic Sensor Data]\n    B -->|LIDAR/Camera/IMU| C[Controller/Brain]\n    C -->|Actuator Commands| A\n"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "weekly-breakdown",
+      children: "Weekly Breakdown"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
+      id: "week-4-gazebo-physics-setup",
+      children: "Week 4: Gazebo Physics Setup"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Configuring joint properties and friction."
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Validating the robot skeleton (URDF) in a physics environment."
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
+      id: "week-5-sensor-fusion",
+      children: "Week 5: Sensor Fusion"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: ["Integrating virtual sensors (", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
+          href: "/robotics-ai-book/docs/hardware-lab/",
+          children: "Hardware Lab Guide"
+        }), ")."]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Generating and processing synthetic sensor data for localized mapping."
+      }), "\n"]
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = {
+    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
+    ...props.components
+  };
+  return MDXLayout ? (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(MDXLayout, {
+    ...props,
+    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_createMdxContent, {
+      ...props
+    })
+  }) : _createMdxContent(props);
+}
+
+
 
 /***/ },
 
@@ -11668,6 +12093,14 @@ if(As==='h1'||!id){return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MOD
 
 /***/ },
 
+/***/ 44755
+(module) {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"id":"module-2-digital-twin/index","title":"Module 2: The Digital Twin","description":"In this module, we explore the world of high-fidelity robotic simulation. A Digital Twin is a virtual representation of a physical robot that allows for safe, cost-effective testing of algorithms before deployment.","source":"@site/docs/module-2-digital-twin/index.md","sourceDirName":"module-2-digital-twin","slug":"/module-2-digital-twin/","permalink":"/robotics-ai-book/docs/module-2-digital-twin/","draft":false,"unlisted":false,"editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/index.md","tags":[],"version":"current","frontMatter":{},"sidebar":"tutorialSidebar","previous":{"title":"Module 1: Robotic Nervous System","permalink":"/robotics-ai-book/docs/module-1-robotic-nervous-system/"},"next":{"title":"Synthetic Sensors in Simulation","permalink":"/robotics-ai-book/docs/module-2-digital-twin/sensors"}}');
+
+/***/ },
+
 /***/ 44905
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -13296,6 +13729,14 @@ return parts[Math.min(pluralFormIndex,parts.length-1)];}/**
 
 /***/ },
 
+/***/ 53474
+(module) {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"id":"module-3-ai-robot-brain/index","title":"Module 3: The AI-Robot Brain","description":"This module focuses on Embodied Intelligence. We transition from basic mechanics to high-level perception and path planning using NVIDIA\'s ecosystem.","source":"@site/docs/module-3-ai-robot-brain/index.md","sourceDirName":"module-3-ai-robot-brain","slug":"/module-3-ai-robot-brain/","permalink":"/robotics-ai-book/docs/module-3-ai-robot-brain/","draft":false,"unlisted":false,"editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-3-ai-robot-brain/index.md","tags":[],"version":"current","frontMatter":{},"sidebar":"tutorialSidebar","previous":{"title":"Synthetic Sensors in Simulation","permalink":"/robotics-ai-book/docs/module-2-digital-twin/sensors"},"next":{"title":"Module 4: Vision-Language-Action (VLA)","permalink":"/robotics-ai-book/docs/module-4-vla-capstone/"}}');
+
+/***/ },
+
 /***/ 53550
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -13311,6 +13752,134 @@ return parts[Math.min(pluralFormIndex,parts.length-1)];}/**
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */function AdmonitionIconNote(props){return/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("svg",{viewBox:"0 0 14 16",...props,children:/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("path",{fillRule:"evenodd",d:"M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"})});}
+
+/***/ },
+
+/***/ 53562
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   assets: () => (/* binding */ assets),
+/* harmony export */   contentTitle: () => (/* binding */ contentTitle),
+/* harmony export */   "default": () => (/* binding */ MDXContent),
+/* harmony export */   frontMatter: () => (/* binding */ frontMatter),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_docs_default_site_docs_module_2_digital_twin_sensors_md_544_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   toc: () => (/* binding */ toc)
+/* harmony export */ });
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_docs_default_site_docs_module_2_digital_twin_sensors_md_544_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(61327);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(74848);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(28453);
+
+
+const frontMatter = {};
+const contentTitle = 'Synthetic Sensors in Simulation';
+
+const assets = {
+
+};
+
+
+
+const toc = [{
+  "value": "LIDAR (Light Detection and Ranging)",
+  "id": "lidar-light-detection-and-ranging",
+  "level": 2
+}, {
+  "value": "Depth Cameras (e.g., Intel RealSense)",
+  "id": "depth-cameras-eg-intel-realsense",
+  "level": 2
+}, {
+  "value": "IMU (Inertial Measurement Unit)",
+  "id": "imu-inertial-measurement-unit",
+  "level": 2
+}];
+function _createMdxContent(props) {
+  const _components = {
+    a: "a",
+    code: "code",
+    h1: "h1",
+    h2: "h2",
+    header: "header",
+    li: "li",
+    p: "p",
+    strong: "strong",
+    ul: "ul",
+    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
+    ...props.components
+  };
+  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
+    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.header, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h1, {
+        id: "synthetic-sensors-in-simulation",
+        children: "Synthetic Sensors in Simulation"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.p, {
+      children: "To bridge the gap between simulation and reality, we must model synthetic sensors that mimic their physical counterparts."
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "lidar-light-detection-and-ranging",
+      children: "LIDAR (Light Detection and Ranging)"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Use:"
+        }), " mapping and obstacle avoidance."]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Simulation:"
+        }), " Generates a ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.code, {
+          children: "LaserScan"
+        }), " message by calculating ray-casts against virtual geometry."]
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "depth-cameras-eg-intel-realsense",
+      children: "Depth Cameras (e.g., Intel RealSense)"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Use:"
+        }), " 3D point cloud generation and object recognition."]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Simulation:"
+        }), " Uses the GPU to render a depth buffer, providing a pixel-by-pixel distance map."]
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "imu-inertial-measurement-unit",
+      children: "IMU (Inertial Measurement Unit)"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Use:"
+        }), " Balancing and orientation (Odometry)."]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Simulation:"
+        }), " Models accelerometers and gyroscopes with added Gaussian noise to simulate real-world sensor drift."]
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
+      children: ["Refer to the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
+        href: "/robotics-ai-book/docs/hardware-lab/",
+        children: "Hardware Lab"
+      }), " for the recommended physical kits for these sensors."]
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = {
+    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
+    ...props.components
+  };
+  return MDXLayout ? (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(MDXLayout, {
+    ...props,
+    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_createMdxContent, {
+      ...props
+    })
+  }) : _createMdxContent(props);
+}
+
+
 
 /***/ },
 
@@ -22765,7 +23334,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"authors":[{"name":"Yangshun Tay","ti
 (module) {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"docusaurus-plugin-content-docs":{"default":{"path":"/robotics-ai-book/docs","versions":[{"name":"current","label":"Next","isLast":true,"path":"/robotics-ai-book/docs","mainDocId":"foundations/index","docs":[{"id":"body/index","path":"/robotics-ai-book/docs/body/","sidebar":"tutorialSidebar"},{"id":"brain/index","path":"/robotics-ai-book/docs/brain/","sidebar":"tutorialSidebar"},{"id":"edge/index","path":"/robotics-ai-book/docs/edge/","sidebar":"tutorialSidebar"},{"id":"foundations/index","path":"/robotics-ai-book/docs/foundations/","sidebar":"tutorialSidebar"},{"id":"hardware-lab/index","path":"/robotics-ai-book/docs/hardware-lab/","sidebar":"tutorialSidebar"},{"id":"intro","path":"/robotics-ai-book/docs/intro","sidebar":"tutorialSidebar"},{"id":"module-1-robotic-nervous-system/index","path":"/robotics-ai-book/docs/module-1-robotic-nervous-system/","sidebar":"tutorialSidebar"},{"id":"tutorial-basics/congratulations","path":"/robotics-ai-book/docs/tutorial-basics/congratulations","sidebar":"tutorialSidebar"},{"id":"tutorial-basics/create-a-blog-post","path":"/robotics-ai-book/docs/tutorial-basics/create-a-blog-post","sidebar":"tutorialSidebar"},{"id":"tutorial-basics/create-a-document","path":"/robotics-ai-book/docs/tutorial-basics/create-a-document","sidebar":"tutorialSidebar"},{"id":"tutorial-basics/create-a-page","path":"/robotics-ai-book/docs/tutorial-basics/create-a-page","sidebar":"tutorialSidebar"},{"id":"tutorial-basics/deploy-your-site","path":"/robotics-ai-book/docs/tutorial-basics/deploy-your-site","sidebar":"tutorialSidebar"},{"id":"tutorial-basics/markdown-features","path":"/robotics-ai-book/docs/tutorial-basics/markdown-features","sidebar":"tutorialSidebar"},{"id":"tutorial-extras/manage-docs-versions","path":"/robotics-ai-book/docs/tutorial-extras/manage-docs-versions","sidebar":"tutorialSidebar"},{"id":"tutorial-extras/translate-your-site","path":"/robotics-ai-book/docs/tutorial-extras/translate-your-site","sidebar":"tutorialSidebar"},{"id":"/category/tutorial---basics","path":"/robotics-ai-book/docs/category/tutorial---basics","sidebar":"tutorialSidebar"},{"id":"/category/tutorial---extras","path":"/robotics-ai-book/docs/category/tutorial---extras","sidebar":"tutorialSidebar"}],"draftIds":[],"sidebars":{"tutorialSidebar":{"link":{"path":"/robotics-ai-book/docs/foundations/","label":"Foundations of Physical AI"}}}}],"breadcrumbs":true}}}');
+module.exports = /*#__PURE__*/JSON.parse('{"docusaurus-plugin-content-docs":{"default":{"path":"/robotics-ai-book/docs","versions":[{"name":"current","label":"Next","isLast":true,"path":"/robotics-ai-book/docs","mainDocId":"foundations/index","docs":[{"id":"body/index","path":"/robotics-ai-book/docs/body/","sidebar":"tutorialSidebar"},{"id":"brain/index","path":"/robotics-ai-book/docs/brain/","sidebar":"tutorialSidebar"},{"id":"edge/index","path":"/robotics-ai-book/docs/edge/","sidebar":"tutorialSidebar"},{"id":"foundations/index","path":"/robotics-ai-book/docs/foundations/","sidebar":"tutorialSidebar"},{"id":"hardware-lab/index","path":"/robotics-ai-book/docs/hardware-lab/","sidebar":"tutorialSidebar"},{"id":"intro","path":"/robotics-ai-book/docs/intro","sidebar":"tutorialSidebar"},{"id":"module-1-robotic-nervous-system/index","path":"/robotics-ai-book/docs/module-1-robotic-nervous-system/","sidebar":"tutorialSidebar"},{"id":"module-2-digital-twin/index","path":"/robotics-ai-book/docs/module-2-digital-twin/","sidebar":"tutorialSidebar"},{"id":"module-2-digital-twin/sensors","path":"/robotics-ai-book/docs/module-2-digital-twin/sensors","sidebar":"tutorialSidebar"},{"id":"module-3-ai-robot-brain/index","path":"/robotics-ai-book/docs/module-3-ai-robot-brain/","sidebar":"tutorialSidebar"},{"id":"module-4-vla-capstone/index","path":"/robotics-ai-book/docs/module-4-vla-capstone/","sidebar":"tutorialSidebar"},{"id":"tutorial-basics/congratulations","path":"/robotics-ai-book/docs/tutorial-basics/congratulations","sidebar":"tutorialSidebar"},{"id":"tutorial-basics/create-a-blog-post","path":"/robotics-ai-book/docs/tutorial-basics/create-a-blog-post","sidebar":"tutorialSidebar"},{"id":"tutorial-basics/create-a-document","path":"/robotics-ai-book/docs/tutorial-basics/create-a-document","sidebar":"tutorialSidebar"},{"id":"tutorial-basics/create-a-page","path":"/robotics-ai-book/docs/tutorial-basics/create-a-page","sidebar":"tutorialSidebar"},{"id":"tutorial-basics/deploy-your-site","path":"/robotics-ai-book/docs/tutorial-basics/deploy-your-site","sidebar":"tutorialSidebar"},{"id":"tutorial-basics/markdown-features","path":"/robotics-ai-book/docs/tutorial-basics/markdown-features","sidebar":"tutorialSidebar"},{"id":"tutorial-extras/manage-docs-versions","path":"/robotics-ai-book/docs/tutorial-extras/manage-docs-versions","sidebar":"tutorialSidebar"},{"id":"tutorial-extras/translate-your-site","path":"/robotics-ai-book/docs/tutorial-extras/translate-your-site","sidebar":"tutorialSidebar"},{"id":"/category/tutorial---basics","path":"/robotics-ai-book/docs/category/tutorial---basics","sidebar":"tutorialSidebar"},{"id":"/category/tutorial---extras","path":"/robotics-ai-book/docs/category/tutorial---extras","sidebar":"tutorialSidebar"}],"draftIds":[],"sidebars":{"tutorialSidebar":{"link":{"path":"/robotics-ai-book/docs/foundations/","label":"Foundations of Physical AI"}}}}],"breadcrumbs":true}}}');
 
 /***/ },
 
@@ -23035,6 +23604,14 @@ module.exports = {
 // See https://github.com/facebook/docusaurus/pull/5721
 if(scrollTop<navbarHeight.current){setIsNavbarVisible(true);return;}if(isFocusedAnchor.current){isFocusedAnchor.current=false;return;}const lastScrollTop=lastPosition?.scrollY;const documentHeight=document.documentElement.scrollHeight-navbarHeight.current;const windowHeight=window.innerHeight;if(lastScrollTop&&scrollTop>=lastScrollTop){setIsNavbarVisible(false);}else if(scrollTop+windowHeight<documentHeight){setIsNavbarVisible(true);}});(0,_utils_useLocationChange__WEBPACK_IMPORTED_MODULE_1__/* .useLocationChange */ .$)(locationChangeEvent=>{if(!hideOnScroll){return;}// See https://github.com/facebook/docusaurus/pull/8059#issuecomment-1239639480
 const currentHash=locationChangeEvent.location.hash;const currentHashAnchor=currentHash?document.getElementById(currentHash.substring(1)):undefined;if(currentHashAnchor){isFocusedAnchor.current=true;setIsNavbarVisible(false);return;}setIsNavbarVisible(true);});return{navbarRef,isNavbarVisible};}
+
+/***/ },
+
+/***/ 61327
+(module) {
+
+"use strict";
+module.exports = /*#__PURE__*/JSON.parse('{"id":"module-2-digital-twin/sensors","title":"Synthetic Sensors in Simulation","description":"To bridge the gap between simulation and reality, we must model synthetic sensors that mimic their physical counterparts.","source":"@site/docs/module-2-digital-twin/sensors.md","sourceDirName":"module-2-digital-twin","slug":"/module-2-digital-twin/sensors","permalink":"/robotics-ai-book/docs/module-2-digital-twin/sensors","draft":false,"unlisted":false,"editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-2-digital-twin/sensors.md","tags":[],"version":"current","frontMatter":{},"sidebar":"tutorialSidebar","previous":{"title":"Module 2: The Digital Twin","permalink":"/robotics-ai-book/docs/module-2-digital-twin/"},"next":{"title":"Module 3: The AI-Robot Brain","permalink":"/robotics-ai-book/docs/module-3-ai-robot-brain/"}}');
 
 /***/ },
 
@@ -27575,7 +28152,7 @@ if (true) {
 /* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(29867);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"01a85c17":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(29140))),"@theme/BlogTagsListPage",/*require.resolve*/(29140)],"0e384e19":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(20619))),"@site/docs/intro.md",/*require.resolve*/(20619)],"12d0710c":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(51360))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-aa8.json",/*require.resolve*/(51360)],"144960c5":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(94459))),"@site/docs/edge/index.md",/*require.resolve*/(94459)],"14eb3368":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(68780))),"@theme/DocCategoryGeneratedIndexPage",/*require.resolve*/(68780)],"17896441":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(66915))),"@theme/DocItem",/*require.resolve*/(66915)],"18c41134":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(13849))),"@site/docs/tutorial-basics/markdown-features.mdx",/*require.resolve*/(13849)],"1df93b7f":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(36866))),"@site/src/pages/index.tsx",/*require.resolve*/(36866)],"1e4232ab":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(13976))),"@site/docs/tutorial-basics/create-a-document.md",/*require.resolve*/(13976)],"1f391b9e":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(84250))),"@theme/MDXPage",/*require.resolve*/(84250)],"23b99d2f":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(19231))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-authors-yangshun-d2d.json",/*require.resolve*/(19231)],"2718a1b5":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(3617))),"@generated/docusaurus-plugin-content-docs/default/p/robotics-ai-book-docs-category-tutorial-extras-10f.json",/*require.resolve*/(3617)],"2f9f16e3":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(62859))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-tags-facebook-7e4.json",/*require.resolve*/(62859)],"33f8ef06":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(78306))),"@site/docs/brain/index.md",/*require.resolve*/(78306)],"33fc5bb8":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(30778))),"@theme/Blog/Pages/BlogAuthorsPostsPage",/*require.resolve*/(30778)],"36994c47":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(45516))),"@generated/docusaurus-plugin-content-blog/default/__plugin.json",/*require.resolve*/(45516)],"393be207":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(40633))),"@site/src/pages/markdown-page.md",/*require.resolve*/(40633)],"3983ea29":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(96292))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-tags-db4.json",/*require.resolve*/(96292)],"3d2f0381":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(96036))),"@site/docs/module-1-robotic-nervous-system/index.md",/*require.resolve*/(96036)],"50d178e5":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(90002))),"@site/docs/body/index.md",/*require.resolve*/(90002)],"533a09ca":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(64700))),"@site/docs/tutorial-basics/create-a-blog-post.md",/*require.resolve*/(64700)],"59362658":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(81180))),"@site/blog/2021-08-01-mdx-blog-post.mdx",/*require.resolve*/(81180)],"5c868d36":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(75254))),"@site/docs/tutorial-basics/create-a-page.md",/*require.resolve*/(75254)],"5d1bb790":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(48504))),"@site/docs/hardware-lab/index.md",/*require.resolve*/(48504)],"5e95c892":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(7121))),"@theme/DocsRoot",/*require.resolve*/(7121)],"5e9f5e1a":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(4784))),"@generated/docusaurus.config",/*require.resolve*/(4784)],"621db11d":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(75613))),"@theme/Blog/Pages/BlogAuthorsListPage",/*require.resolve*/(75613)],"6264287f":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(20308))),"@generated/docusaurus-plugin-content-docs/default/p/robotics-ai-book-docs-category-tutorial-basics-291.json",/*require.resolve*/(20308)],"6875c492":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(33069))),"@theme/BlogTagsPostsPage",/*require.resolve*/(33069)],"73664a40":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(49581))),"@site/blog/2019-05-29-long-blog-post.md",/*require.resolve*/(49581)],"7661071f":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(24137))),"@site/blog/2021-08-26-welcome/index.md?truncated=true",/*require.resolve*/(24137)],"814f3328":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(55513))),"~blog/default/blog-post-list-prop-default.json",/*require.resolve*/(55513)],"822bd8ab":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(98611))),"@site/docs/tutorial-basics/congratulations.md",/*require.resolve*/(98611)],"8717b14a":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(61615))),"@site/blog/2019-05-29-long-blog-post.md?truncated=true",/*require.resolve*/(61615)],"87756a98":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(10949))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-tags-hello-e90.json",/*require.resolve*/(10949)],"8e66a749":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(63530))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-archive-bbe.json",/*require.resolve*/(63530)],"925b3f96":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(95026))),"@site/blog/2019-05-28-first-blog-post.md?truncated=true",/*require.resolve*/(95026)],"9e4087bc":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(89331))),"@theme/BlogArchivePage",/*require.resolve*/(89331)],"a4733394":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(86357))),"@generated/docusaurus-plugin-content-docs/default/p/robotics-ai-book-docs-a7a.json",/*require.resolve*/(86357)],"a6aa9e1f":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(77785))),"@theme/BlogListPage",/*require.resolve*/(77785)],"a6f721d8":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(79074))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-authors-all-sebastien-lorber-articles-34f.json",/*require.resolve*/(79074)],"a7456010":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(88552))),"@generated/docusaurus-plugin-content-pages/default/__plugin.json",/*require.resolve*/(88552)],"a7bd4aaa":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(74532))),"@theme/DocVersionRoot",/*require.resolve*/(74532)],"a94703ab":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(8944))),"@theme/DocRoot",/*require.resolve*/(8944)],"aba21aa0":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(27093))),"@generated/docusaurus-plugin-content-docs/default/__plugin.json",/*require.resolve*/(27093)],"acecf23e":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(1912))),"~blog/default/blogMetadata-default.json",/*require.resolve*/(1912)],"c7a645a6":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(59273))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-authors-f75.json",/*require.resolve*/(59273)],"ccc49370":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(10807))),"@theme/BlogPostPage",/*require.resolve*/(10807)],"cd04b41c":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(91714))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-tags-hola-b50.json",/*require.resolve*/(91714)],"d9f32620":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(7447))),"@site/blog/2021-08-26-welcome/index.md",/*require.resolve*/(7447)],"dff1c289":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(68043))),"@site/docs/tutorial-extras/manage-docs-versions.md",/*require.resolve*/(68043)],"e273c56f":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(84014))),"@site/blog/2019-05-28-first-blog-post.md",/*require.resolve*/(84014)],"e33300dd":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(4944))),"@site/docs/foundations/index.md",/*require.resolve*/(4944)],"e44a2883":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(48350))),"@site/docs/tutorial-extras/translate-your-site.md",/*require.resolve*/(48350)],"f4f34a3a":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(95512))),"@site/blog/2021-08-01-mdx-blog-post.mdx?truncated=true",/*require.resolve*/(95512)],"f53ccc19":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(75590))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-tags-docusaurus-2c6.json",/*require.resolve*/(75590)],"f55d3e7a":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(40745))),"@site/docs/tutorial-basics/deploy-your-site.md",/*require.resolve*/(40745)]});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({"01a85c17":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(29140))),"@theme/BlogTagsListPage",/*require.resolve*/(29140)],"0e384e19":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(20619))),"@site/docs/intro.md",/*require.resolve*/(20619)],"12d0710c":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(51360))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-aa8.json",/*require.resolve*/(51360)],"144960c5":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(94459))),"@site/docs/edge/index.md",/*require.resolve*/(94459)],"14eb3368":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(68780))),"@theme/DocCategoryGeneratedIndexPage",/*require.resolve*/(68780)],"17896441":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(66915))),"@theme/DocItem",/*require.resolve*/(66915)],"18c41134":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(13849))),"@site/docs/tutorial-basics/markdown-features.mdx",/*require.resolve*/(13849)],"1df93b7f":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(36866))),"@site/src/pages/index.tsx",/*require.resolve*/(36866)],"1e4232ab":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(13976))),"@site/docs/tutorial-basics/create-a-document.md",/*require.resolve*/(13976)],"1f391b9e":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(84250))),"@theme/MDXPage",/*require.resolve*/(84250)],"23b99d2f":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(19231))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-authors-yangshun-d2d.json",/*require.resolve*/(19231)],"2718a1b5":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(3617))),"@generated/docusaurus-plugin-content-docs/default/p/robotics-ai-book-docs-category-tutorial-extras-10f.json",/*require.resolve*/(3617)],"2f9f16e3":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(62859))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-tags-facebook-7e4.json",/*require.resolve*/(62859)],"33f8ef06":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(78306))),"@site/docs/brain/index.md",/*require.resolve*/(78306)],"33fc5bb8":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(30778))),"@theme/Blog/Pages/BlogAuthorsPostsPage",/*require.resolve*/(30778)],"36994c47":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(45516))),"@generated/docusaurus-plugin-content-blog/default/__plugin.json",/*require.resolve*/(45516)],"393be207":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(40633))),"@site/src/pages/markdown-page.md",/*require.resolve*/(40633)],"3983ea29":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(96292))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-tags-db4.json",/*require.resolve*/(96292)],"3d2f0381":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(96036))),"@site/docs/module-1-robotic-nervous-system/index.md",/*require.resolve*/(96036)],"4052a93d":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(27))),"@site/docs/module-4-vla-capstone/index.md",/*require.resolve*/(27)],"50d178e5":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(90002))),"@site/docs/body/index.md",/*require.resolve*/(90002)],"533a09ca":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(64700))),"@site/docs/tutorial-basics/create-a-blog-post.md",/*require.resolve*/(64700)],"5442fff3":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(53562))),"@site/docs/module-2-digital-twin/sensors.md",/*require.resolve*/(53562)],"59362658":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(81180))),"@site/blog/2021-08-01-mdx-blog-post.mdx",/*require.resolve*/(81180)],"5c868d36":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(75254))),"@site/docs/tutorial-basics/create-a-page.md",/*require.resolve*/(75254)],"5d1bb790":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(48504))),"@site/docs/hardware-lab/index.md",/*require.resolve*/(48504)],"5e95c892":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(7121))),"@theme/DocsRoot",/*require.resolve*/(7121)],"5e9f5e1a":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(4784))),"@generated/docusaurus.config",/*require.resolve*/(4784)],"621db11d":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(75613))),"@theme/Blog/Pages/BlogAuthorsListPage",/*require.resolve*/(75613)],"6264287f":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(20308))),"@generated/docusaurus-plugin-content-docs/default/p/robotics-ai-book-docs-category-tutorial-basics-291.json",/*require.resolve*/(20308)],"6875c492":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(33069))),"@theme/BlogTagsPostsPage",/*require.resolve*/(33069)],"73664a40":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(49581))),"@site/blog/2019-05-29-long-blog-post.md",/*require.resolve*/(49581)],"7661071f":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(24137))),"@site/blog/2021-08-26-welcome/index.md?truncated=true",/*require.resolve*/(24137)],"8113467f":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(29553))),"@site/docs/module-2-digital-twin/index.md",/*require.resolve*/(29553)],"814f3328":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(55513))),"~blog/default/blog-post-list-prop-default.json",/*require.resolve*/(55513)],"822bd8ab":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(98611))),"@site/docs/tutorial-basics/congratulations.md",/*require.resolve*/(98611)],"8717b14a":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(61615))),"@site/blog/2019-05-29-long-blog-post.md?truncated=true",/*require.resolve*/(61615)],"87756a98":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(10949))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-tags-hello-e90.json",/*require.resolve*/(10949)],"8c650429":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(88907))),"@site/docs/module-3-ai-robot-brain/index.md",/*require.resolve*/(88907)],"8e66a749":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(63530))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-archive-bbe.json",/*require.resolve*/(63530)],"925b3f96":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(95026))),"@site/blog/2019-05-28-first-blog-post.md?truncated=true",/*require.resolve*/(95026)],"9e4087bc":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(89331))),"@theme/BlogArchivePage",/*require.resolve*/(89331)],"a4733394":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(86357))),"@generated/docusaurus-plugin-content-docs/default/p/robotics-ai-book-docs-a7a.json",/*require.resolve*/(86357)],"a6aa9e1f":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(77785))),"@theme/BlogListPage",/*require.resolve*/(77785)],"a6f721d8":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(79074))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-authors-all-sebastien-lorber-articles-34f.json",/*require.resolve*/(79074)],"a7456010":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(88552))),"@generated/docusaurus-plugin-content-pages/default/__plugin.json",/*require.resolve*/(88552)],"a7bd4aaa":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(74532))),"@theme/DocVersionRoot",/*require.resolve*/(74532)],"a94703ab":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(8944))),"@theme/DocRoot",/*require.resolve*/(8944)],"aba21aa0":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(27093))),"@generated/docusaurus-plugin-content-docs/default/__plugin.json",/*require.resolve*/(27093)],"acecf23e":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(1912))),"~blog/default/blogMetadata-default.json",/*require.resolve*/(1912)],"c7a645a6":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(59273))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-authors-f75.json",/*require.resolve*/(59273)],"ccc49370":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(10807))),"@theme/BlogPostPage",/*require.resolve*/(10807)],"cd04b41c":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(91714))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-tags-hola-b50.json",/*require.resolve*/(91714)],"d9f32620":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(7447))),"@site/blog/2021-08-26-welcome/index.md",/*require.resolve*/(7447)],"dff1c289":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(68043))),"@site/docs/tutorial-extras/manage-docs-versions.md",/*require.resolve*/(68043)],"e273c56f":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(84014))),"@site/blog/2019-05-28-first-blog-post.md",/*require.resolve*/(84014)],"e33300dd":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(4944))),"@site/docs/foundations/index.md",/*require.resolve*/(4944)],"e44a2883":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(48350))),"@site/docs/tutorial-extras/translate-your-site.md",/*require.resolve*/(48350)],"f4f34a3a":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(95512))),"@site/blog/2021-08-01-mdx-blog-post.mdx?truncated=true",/*require.resolve*/(95512)],"f53ccc19":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(75590))),"@generated/docusaurus-plugin-content-blog/default/p/robotics-ai-book-blog-tags-docusaurus-2c6.json",/*require.resolve*/(75590)],"f55d3e7a":[()=>Promise.resolve().then(()=>(0,D_GenAI_gemini_cli_hackathon_robotics_ai_book_node_modules_babel_runtime_helpers_esm_interopRequireWildcard_js__WEBPACK_IMPORTED_MODULE_0__/* ["default"] */ .A)(__webpack_require__(40745))),"@site/docs/tutorial-basics/deploy-your-site.md",/*require.resolve*/(40745)]});
 
 /***/ },
 
@@ -28032,7 +28609,7 @@ module.exports = require("crypto");
 (module) {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"id":"module-1-robotic-nervous-system/index","title":"Module 1: Robotic Nervous System","description":"This module covers the fundamental communication layer of a robot: the Middleware. We focus on ROS 2 (Robot Operating System), which acts as the \\"nervous system,\\" carrying signals from sensors to the brain and commands from the brain to the motors.","source":"@site/docs/module-1-robotic-nervous-system/index.md","sourceDirName":"module-1-robotic-nervous-system","slug":"/module-1-robotic-nervous-system/","permalink":"/robotics-ai-book/docs/module-1-robotic-nervous-system/","draft":false,"unlisted":false,"editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-1-robotic-nervous-system/index.md","tags":[],"version":"current","frontMatter":{},"sidebar":"tutorialSidebar","previous":{"title":"Hardware & Lab Setup","permalink":"/robotics-ai-book/docs/hardware-lab/"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"id":"module-1-robotic-nervous-system/index","title":"Module 1: Robotic Nervous System","description":"This module covers the fundamental communication layer of a robot: the Middleware. We focus on ROS 2 (Robot Operating System), which acts as the \\"nervous system,\\" carrying signals from sensors to the brain and commands from the brain to the motors.","source":"@site/docs/module-1-robotic-nervous-system/index.md","sourceDirName":"module-1-robotic-nervous-system","slug":"/module-1-robotic-nervous-system/","permalink":"/robotics-ai-book/docs/module-1-robotic-nervous-system/","draft":false,"unlisted":false,"editUrl":"https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-1-robotic-nervous-system/index.md","tags":[],"version":"current","frontMatter":{},"sidebar":"tutorialSidebar","previous":{"title":"Hardware & Lab Setup","permalink":"/robotics-ai-book/docs/hardware-lab/"},"next":{"title":"Module 2: The Digital Twin","permalink":"/robotics-ai-book/docs/module-2-digital-twin/"}}');
 
 /***/ },
 
@@ -28894,7 +29471,7 @@ function MDXContent(props = {}) {
 (module) {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"/robotics-ai-book/blog-fed":{"__comp":"a6aa9e1f","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"7661071f"},{"content":"f4f34a3a"},{"content":"8717b14a"},{"content":"925b3f96"}],"__props":"12d0710c"},"/robotics-ai-book/blog/archive-63f":{"__comp":"9e4087bc","__context":{"plugin":"36994c47"},"__props":"8e66a749"},"/robotics-ai-book/blog/authors-7cb":{"__comp":"621db11d","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","__props":"c7a645a6"},"/robotics-ai-book/blog/authors/all-sebastien-lorber-articles-e2d":{"__comp":"33fc5bb8","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"items":[{"content":"7661071f"},{"content":"f4f34a3a"},{"content":"925b3f96"}],"sidebar":"814f3328","__props":"a6f721d8"},"/robotics-ai-book/blog/authors/yangshun-12e":{"__comp":"33fc5bb8","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"items":[{"content":"7661071f"},{"content":"8717b14a"},{"content":"925b3f96"}],"sidebar":"814f3328","__props":"23b99d2f"},"/robotics-ai-book/blog/first-blog-post-98d":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","content":"e273c56f"},"/robotics-ai-book/blog/long-blog-post-2fb":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","content":"73664a40"},"/robotics-ai-book/blog/mdx-blog-post-47c":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","content":"59362658"},"/robotics-ai-book/blog/tags-cf1":{"__comp":"01a85c17","__context":{"plugin":"36994c47"},"sidebar":"814f3328","__props":"3983ea29"},"/robotics-ai-book/blog/tags/docusaurus-cc4":{"__comp":"6875c492","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"7661071f"},{"content":"f4f34a3a"},{"content":"8717b14a"},{"content":"925b3f96"}],"__props":"f53ccc19"},"/robotics-ai-book/blog/tags/facebook-f3c":{"__comp":"6875c492","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"7661071f"}],"__props":"2f9f16e3"},"/robotics-ai-book/blog/tags/hello-acf":{"__comp":"6875c492","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"7661071f"},{"content":"8717b14a"}],"__props":"87756a98"},"/robotics-ai-book/blog/tags/hola-f0d":{"__comp":"6875c492","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"925b3f96"}],"__props":"cd04b41c"},"/robotics-ai-book/blog/welcome-a77":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","content":"d9f32620"},"/robotics-ai-book/markdown-page-068":{"__comp":"1f391b9e","__context":{"plugin":"a7456010"},"content":"393be207"},"/robotics-ai-book/docs-425":{"__comp":"5e95c892","__context":{"plugin":"aba21aa0"}},"/robotics-ai-book/docs-036":{"__comp":"a7bd4aaa","__props":"a4733394"},"/robotics-ai-book/docs-a8c":{"__comp":"a94703ab"},"/robotics-ai-book/docs/body-018":{"__comp":"17896441","content":"50d178e5"},"/robotics-ai-book/docs/brain-04d":{"__comp":"17896441","content":"33f8ef06"},"/robotics-ai-book/docs/category/tutorial---basics-a63":{"__comp":"14eb3368","__props":"6264287f"},"/robotics-ai-book/docs/category/tutorial---extras-9ac":{"__comp":"14eb3368","__props":"2718a1b5"},"/robotics-ai-book/docs/edge-5e7":{"__comp":"17896441","content":"144960c5"},"/robotics-ai-book/docs/foundations-9df":{"__comp":"17896441","content":"e33300dd"},"/robotics-ai-book/docs/hardware-lab-1e0":{"__comp":"17896441","content":"5d1bb790"},"/robotics-ai-book/docs/intro-d05":{"__comp":"17896441","content":"0e384e19"},"/robotics-ai-book/docs/module-1-robotic-nervous-system-fb6":{"__comp":"17896441","content":"3d2f0381"},"/robotics-ai-book/docs/tutorial-basics/congratulations-963":{"__comp":"17896441","content":"822bd8ab"},"/robotics-ai-book/docs/tutorial-basics/create-a-blog-post-50c":{"__comp":"17896441","content":"533a09ca"},"/robotics-ai-book/docs/tutorial-basics/create-a-document-1d9":{"__comp":"17896441","content":"1e4232ab"},"/robotics-ai-book/docs/tutorial-basics/create-a-page-8c9":{"__comp":"17896441","content":"5c868d36"},"/robotics-ai-book/docs/tutorial-basics/deploy-your-site-aef":{"__comp":"17896441","content":"f55d3e7a"},"/robotics-ai-book/docs/tutorial-basics/markdown-features-d6c":{"__comp":"17896441","content":"18c41134"},"/robotics-ai-book/docs/tutorial-extras/manage-docs-versions-63d":{"__comp":"17896441","content":"dff1c289"},"/robotics-ai-book/docs/tutorial-extras/translate-your-site-cb9":{"__comp":"17896441","content":"e44a2883"},"/robotics-ai-book/-3a8":{"__comp":"1df93b7f","__context":{"plugin":"a7456010"},"config":"5e9f5e1a"}}');
+module.exports = /*#__PURE__*/JSON.parse('{"/robotics-ai-book/blog-fed":{"__comp":"a6aa9e1f","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"7661071f"},{"content":"f4f34a3a"},{"content":"8717b14a"},{"content":"925b3f96"}],"__props":"12d0710c"},"/robotics-ai-book/blog/archive-63f":{"__comp":"9e4087bc","__context":{"plugin":"36994c47"},"__props":"8e66a749"},"/robotics-ai-book/blog/authors-7cb":{"__comp":"621db11d","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","__props":"c7a645a6"},"/robotics-ai-book/blog/authors/all-sebastien-lorber-articles-e2d":{"__comp":"33fc5bb8","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"items":[{"content":"7661071f"},{"content":"f4f34a3a"},{"content":"925b3f96"}],"sidebar":"814f3328","__props":"a6f721d8"},"/robotics-ai-book/blog/authors/yangshun-12e":{"__comp":"33fc5bb8","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"items":[{"content":"7661071f"},{"content":"8717b14a"},{"content":"925b3f96"}],"sidebar":"814f3328","__props":"23b99d2f"},"/robotics-ai-book/blog/first-blog-post-98d":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","content":"e273c56f"},"/robotics-ai-book/blog/long-blog-post-2fb":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","content":"73664a40"},"/robotics-ai-book/blog/mdx-blog-post-47c":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","content":"59362658"},"/robotics-ai-book/blog/tags-cf1":{"__comp":"01a85c17","__context":{"plugin":"36994c47"},"sidebar":"814f3328","__props":"3983ea29"},"/robotics-ai-book/blog/tags/docusaurus-cc4":{"__comp":"6875c492","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"7661071f"},{"content":"f4f34a3a"},{"content":"8717b14a"},{"content":"925b3f96"}],"__props":"f53ccc19"},"/robotics-ai-book/blog/tags/facebook-f3c":{"__comp":"6875c492","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"7661071f"}],"__props":"2f9f16e3"},"/robotics-ai-book/blog/tags/hello-acf":{"__comp":"6875c492","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"7661071f"},{"content":"8717b14a"}],"__props":"87756a98"},"/robotics-ai-book/blog/tags/hola-f0d":{"__comp":"6875c492","__context":{"plugin":"36994c47"},"sidebar":"814f3328","items":[{"content":"925b3f96"}],"__props":"cd04b41c"},"/robotics-ai-book/blog/welcome-a77":{"__comp":"ccc49370","__context":{"data":{"blogMetadata":"acecf23e"},"plugin":"36994c47"},"sidebar":"814f3328","content":"d9f32620"},"/robotics-ai-book/markdown-page-068":{"__comp":"1f391b9e","__context":{"plugin":"a7456010"},"content":"393be207"},"/robotics-ai-book/docs-89a":{"__comp":"5e95c892","__context":{"plugin":"aba21aa0"}},"/robotics-ai-book/docs-7bf":{"__comp":"a7bd4aaa","__props":"a4733394"},"/robotics-ai-book/docs-3ea":{"__comp":"a94703ab"},"/robotics-ai-book/docs/body-018":{"__comp":"17896441","content":"50d178e5"},"/robotics-ai-book/docs/brain-04d":{"__comp":"17896441","content":"33f8ef06"},"/robotics-ai-book/docs/category/tutorial---basics-a63":{"__comp":"14eb3368","__props":"6264287f"},"/robotics-ai-book/docs/category/tutorial---extras-9ac":{"__comp":"14eb3368","__props":"2718a1b5"},"/robotics-ai-book/docs/edge-5e7":{"__comp":"17896441","content":"144960c5"},"/robotics-ai-book/docs/foundations-9df":{"__comp":"17896441","content":"e33300dd"},"/robotics-ai-book/docs/hardware-lab-1e0":{"__comp":"17896441","content":"5d1bb790"},"/robotics-ai-book/docs/intro-d05":{"__comp":"17896441","content":"0e384e19"},"/robotics-ai-book/docs/module-1-robotic-nervous-system-fb6":{"__comp":"17896441","content":"3d2f0381"},"/robotics-ai-book/docs/module-2-digital-twin-aa7":{"__comp":"17896441","content":"8113467f"},"/robotics-ai-book/docs/module-2-digital-twin/sensors-569":{"__comp":"17896441","content":"5442fff3"},"/robotics-ai-book/docs/module-3-ai-robot-brain-3af":{"__comp":"17896441","content":"8c650429"},"/robotics-ai-book/docs/module-4-vla-capstone-755":{"__comp":"17896441","content":"4052a93d"},"/robotics-ai-book/docs/tutorial-basics/congratulations-963":{"__comp":"17896441","content":"822bd8ab"},"/robotics-ai-book/docs/tutorial-basics/create-a-blog-post-50c":{"__comp":"17896441","content":"533a09ca"},"/robotics-ai-book/docs/tutorial-basics/create-a-document-1d9":{"__comp":"17896441","content":"1e4232ab"},"/robotics-ai-book/docs/tutorial-basics/create-a-page-8c9":{"__comp":"17896441","content":"5c868d36"},"/robotics-ai-book/docs/tutorial-basics/deploy-your-site-aef":{"__comp":"17896441","content":"f55d3e7a"},"/robotics-ai-book/docs/tutorial-basics/markdown-features-d6c":{"__comp":"17896441","content":"18c41134"},"/robotics-ai-book/docs/tutorial-extras/manage-docs-versions-63d":{"__comp":"17896441","content":"dff1c289"},"/robotics-ai-book/docs/tutorial-extras/translate-your-site-cb9":{"__comp":"17896441","content":"e44a2883"},"/robotics-ai-book/-3a8":{"__comp":"1df93b7f","__context":{"plugin":"a7456010"},"config":"5e9f5e1a"}}');
 
 /***/ },
 
@@ -29256,7 +29833,7 @@ module.exports = {
 (module) {
 
 "use strict";
-module.exports = /*#__PURE__*/JSON.parse('{"version":{"pluginId":"default","version":"current","label":"Next","banner":null,"badge":false,"noIndex":false,"className":"docs-version-current","isLast":true,"docsSidebars":{"tutorialSidebar":[{"type":"link","href":"/robotics-ai-book/docs/foundations/","label":"Foundations of Physical AI","docId":"foundations/index","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/intro","label":"Physical AI & Humanoid Robotics","docId":"intro","unlisted":false},{"type":"category","label":"Tutorial - Basics","collapsible":true,"collapsed":true,"items":[{"type":"link","href":"/robotics-ai-book/docs/tutorial-basics/create-a-page","label":"Create a Page","docId":"tutorial-basics/create-a-page","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/tutorial-basics/create-a-document","label":"Create a Document","docId":"tutorial-basics/create-a-document","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/tutorial-basics/create-a-blog-post","label":"Create a Blog Post","docId":"tutorial-basics/create-a-blog-post","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/tutorial-basics/markdown-features","label":"Markdown Features","docId":"tutorial-basics/markdown-features","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/tutorial-basics/deploy-your-site","label":"Deploy your site","docId":"tutorial-basics/deploy-your-site","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/tutorial-basics/congratulations","label":"Congratulations!","docId":"tutorial-basics/congratulations","unlisted":false}],"href":"/robotics-ai-book/docs/category/tutorial---basics"},{"type":"category","label":"Tutorial - Extras","collapsible":true,"collapsed":true,"items":[{"type":"link","href":"/robotics-ai-book/docs/tutorial-extras/manage-docs-versions","label":"Manage Docs Versions","docId":"tutorial-extras/manage-docs-versions","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/tutorial-extras/translate-your-site","label":"Translate your site","docId":"tutorial-extras/translate-your-site","unlisted":false}],"href":"/robotics-ai-book/docs/category/tutorial---extras"},{"type":"link","href":"/robotics-ai-book/docs/body/","label":"The Body","docId":"body/index","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/brain/","label":"The Brain","docId":"brain/index","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/edge/","label":"Edge Intelligence","docId":"edge/index","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/hardware-lab/","label":"Hardware & Lab Setup","docId":"hardware-lab/index","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/module-1-robotic-nervous-system/","label":"Module 1: Robotic Nervous System","docId":"module-1-robotic-nervous-system/index","unlisted":false}]},"docs":{"body/index":{"id":"body/index","title":"The Body","description":"Overview of Simulation (ROS 2, Isaac, Unity).","sidebar":"tutorialSidebar"},"brain/index":{"id":"brain/index","title":"The Brain","description":"Overview of LLMs, SLMs, and VLA models.","sidebar":"tutorialSidebar"},"edge/index":{"id":"edge/index","title":"Edge Intelligence","description":"Overview of Deployment on Jetson/Orin modules.","sidebar":"tutorialSidebar"},"foundations/index":{"id":"foundations/index","title":"Foundations of Physical AI","description":"Welcome to the core of Physical AI and Humanoid Robotics. This module explores how machines move from digital reasoning to physical interaction.","sidebar":"tutorialSidebar"},"hardware-lab/index":{"id":"hardware-lab/index","title":"Hardware & Lab Setup","description":"Building a Physical AI system requires a balance between simulation power and edge intelligence.","sidebar":"tutorialSidebar"},"intro":{"id":"intro","title":"Physical AI & Humanoid Robotics","description":"Welcome to the definitive guide and technical textbook for the Physical AI & Humanoid Robotics curriculum. This course bridges the gap between digital intelligence (LLMs) and embodied movement in the real world.","sidebar":"tutorialSidebar"},"module-1-robotic-nervous-system/index":{"id":"module-1-robotic-nervous-system/index","title":"Module 1: Robotic Nervous System","description":"This module covers the fundamental communication layer of a robot: the Middleware. We focus on ROS 2 (Robot Operating System), which acts as the \\"nervous system,\\" carrying signals from sensors to the brain and commands from the brain to the motors.","sidebar":"tutorialSidebar"},"tutorial-basics/congratulations":{"id":"tutorial-basics/congratulations","title":"Congratulations!","description":"You have just learned the basics of Docusaurus and made some changes to the initial template.","sidebar":"tutorialSidebar"},"tutorial-basics/create-a-blog-post":{"id":"tutorial-basics/create-a-blog-post","title":"Create a Blog Post","description":"Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...","sidebar":"tutorialSidebar"},"tutorial-basics/create-a-document":{"id":"tutorial-basics/create-a-document","title":"Create a Document","description":"Documents are groups of pages connected through:","sidebar":"tutorialSidebar"},"tutorial-basics/create-a-page":{"id":"tutorial-basics/create-a-page","title":"Create a Page","description":"Add Markdown or React files to src/pages to create a standalone page:","sidebar":"tutorialSidebar"},"tutorial-basics/deploy-your-site":{"id":"tutorial-basics/deploy-your-site","title":"Deploy your site","description":"Docusaurus is a static-site-generator (also called Jamstack).","sidebar":"tutorialSidebar"},"tutorial-basics/markdown-features":{"id":"tutorial-basics/markdown-features","title":"Markdown Features","description":"Docusaurus supports Markdown and a few additional features.","sidebar":"tutorialSidebar"},"tutorial-extras/manage-docs-versions":{"id":"tutorial-extras/manage-docs-versions","title":"Manage Docs Versions","description":"Docusaurus can manage multiple versions of your docs.","sidebar":"tutorialSidebar"},"tutorial-extras/translate-your-site":{"id":"tutorial-extras/translate-your-site","title":"Translate your site","description":"Let\'s translate docs/intro.md to French.","sidebar":"tutorialSidebar"}}}}');
+module.exports = /*#__PURE__*/JSON.parse('{"version":{"pluginId":"default","version":"current","label":"Next","banner":null,"badge":false,"noIndex":false,"className":"docs-version-current","isLast":true,"docsSidebars":{"tutorialSidebar":[{"type":"link","href":"/robotics-ai-book/docs/foundations/","label":"Foundations of Physical AI","docId":"foundations/index","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/intro","label":"Physical AI & Humanoid Robotics","docId":"intro","unlisted":false},{"type":"category","label":"Tutorial - Basics","collapsible":true,"collapsed":true,"items":[{"type":"link","href":"/robotics-ai-book/docs/tutorial-basics/create-a-page","label":"Create a Page","docId":"tutorial-basics/create-a-page","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/tutorial-basics/create-a-document","label":"Create a Document","docId":"tutorial-basics/create-a-document","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/tutorial-basics/create-a-blog-post","label":"Create a Blog Post","docId":"tutorial-basics/create-a-blog-post","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/tutorial-basics/markdown-features","label":"Markdown Features","docId":"tutorial-basics/markdown-features","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/tutorial-basics/deploy-your-site","label":"Deploy your site","docId":"tutorial-basics/deploy-your-site","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/tutorial-basics/congratulations","label":"Congratulations!","docId":"tutorial-basics/congratulations","unlisted":false}],"href":"/robotics-ai-book/docs/category/tutorial---basics"},{"type":"category","label":"Tutorial - Extras","collapsible":true,"collapsed":true,"items":[{"type":"link","href":"/robotics-ai-book/docs/tutorial-extras/manage-docs-versions","label":"Manage Docs Versions","docId":"tutorial-extras/manage-docs-versions","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/tutorial-extras/translate-your-site","label":"Translate your site","docId":"tutorial-extras/translate-your-site","unlisted":false}],"href":"/robotics-ai-book/docs/category/tutorial---extras"},{"type":"link","href":"/robotics-ai-book/docs/body/","label":"The Body","docId":"body/index","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/brain/","label":"The Brain","docId":"brain/index","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/edge/","label":"Edge Intelligence","docId":"edge/index","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/hardware-lab/","label":"Hardware & Lab Setup","docId":"hardware-lab/index","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/module-1-robotic-nervous-system/","label":"Module 1: Robotic Nervous System","docId":"module-1-robotic-nervous-system/index","unlisted":false},{"type":"category","label":"Module 2: The Digital Twin","collapsible":true,"collapsed":true,"items":[{"type":"link","href":"/robotics-ai-book/docs/module-2-digital-twin/sensors","label":"Synthetic Sensors in Simulation","docId":"module-2-digital-twin/sensors","unlisted":false}],"href":"/robotics-ai-book/docs/module-2-digital-twin/"},{"type":"link","href":"/robotics-ai-book/docs/module-3-ai-robot-brain/","label":"Module 3: The AI-Robot Brain","docId":"module-3-ai-robot-brain/index","unlisted":false},{"type":"link","href":"/robotics-ai-book/docs/module-4-vla-capstone/","label":"Module 4: Vision-Language-Action (VLA)","docId":"module-4-vla-capstone/index","unlisted":false}]},"docs":{"body/index":{"id":"body/index","title":"The Body","description":"Overview of Simulation (ROS 2, Isaac, Unity).","sidebar":"tutorialSidebar"},"brain/index":{"id":"brain/index","title":"The Brain","description":"Overview of LLMs, SLMs, and VLA models.","sidebar":"tutorialSidebar"},"edge/index":{"id":"edge/index","title":"Edge Intelligence","description":"Overview of Deployment on Jetson/Orin modules.","sidebar":"tutorialSidebar"},"foundations/index":{"id":"foundations/index","title":"Foundations of Physical AI","description":"Welcome to the core of Physical AI and Humanoid Robotics. This module explores how machines move from digital reasoning to physical interaction.","sidebar":"tutorialSidebar"},"hardware-lab/index":{"id":"hardware-lab/index","title":"Hardware & Lab Setup","description":"Building a Physical AI system requires a balance between simulation power and edge intelligence.","sidebar":"tutorialSidebar"},"intro":{"id":"intro","title":"Physical AI & Humanoid Robotics","description":"Welcome to the definitive guide and technical textbook for the Physical AI & Humanoid Robotics curriculum. This course bridges the gap between digital intelligence (LLMs) and embodied movement in the real world.","sidebar":"tutorialSidebar"},"module-1-robotic-nervous-system/index":{"id":"module-1-robotic-nervous-system/index","title":"Module 1: Robotic Nervous System","description":"This module covers the fundamental communication layer of a robot: the Middleware. We focus on ROS 2 (Robot Operating System), which acts as the \\"nervous system,\\" carrying signals from sensors to the brain and commands from the brain to the motors.","sidebar":"tutorialSidebar"},"module-2-digital-twin/index":{"id":"module-2-digital-twin/index","title":"Module 2: The Digital Twin","description":"In this module, we explore the world of high-fidelity robotic simulation. A Digital Twin is a virtual representation of a physical robot that allows for safe, cost-effective testing of algorithms before deployment.","sidebar":"tutorialSidebar"},"module-2-digital-twin/sensors":{"id":"module-2-digital-twin/sensors","title":"Synthetic Sensors in Simulation","description":"To bridge the gap between simulation and reality, we must model synthetic sensors that mimic their physical counterparts.","sidebar":"tutorialSidebar"},"module-3-ai-robot-brain/index":{"id":"module-3-ai-robot-brain/index","title":"Module 3: The AI-Robot Brain","description":"This module focuses on Embodied Intelligence. We transition from basic mechanics to high-level perception and path planning using NVIDIA\'s ecosystem.","sidebar":"tutorialSidebar"},"module-4-vla-capstone/index":{"id":"module-4-vla-capstone/index","title":"Module 4: Vision-Language-Action (VLA)","description":"The final module explores the convergence of Large Language Models (LLMs) and physical robotics, creating robots that can understand and execute human instructions.","sidebar":"tutorialSidebar"},"tutorial-basics/congratulations":{"id":"tutorial-basics/congratulations","title":"Congratulations!","description":"You have just learned the basics of Docusaurus and made some changes to the initial template.","sidebar":"tutorialSidebar"},"tutorial-basics/create-a-blog-post":{"id":"tutorial-basics/create-a-blog-post","title":"Create a Blog Post","description":"Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...","sidebar":"tutorialSidebar"},"tutorial-basics/create-a-document":{"id":"tutorial-basics/create-a-document","title":"Create a Document","description":"Documents are groups of pages connected through:","sidebar":"tutorialSidebar"},"tutorial-basics/create-a-page":{"id":"tutorial-basics/create-a-page","title":"Create a Page","description":"Add Markdown or React files to src/pages to create a standalone page:","sidebar":"tutorialSidebar"},"tutorial-basics/deploy-your-site":{"id":"tutorial-basics/deploy-your-site","title":"Deploy your site","description":"Docusaurus is a static-site-generator (also called Jamstack).","sidebar":"tutorialSidebar"},"tutorial-basics/markdown-features":{"id":"tutorial-basics/markdown-features","title":"Markdown Features","description":"Docusaurus supports Markdown and a few additional features.","sidebar":"tutorialSidebar"},"tutorial-extras/manage-docs-versions":{"id":"tutorial-extras/manage-docs-versions","title":"Manage Docs Versions","description":"Docusaurus can manage multiple versions of your docs.","sidebar":"tutorialSidebar"},"tutorial-extras/translate-your-site":{"id":"tutorial-extras/translate-your-site","title":"Translate your site","description":"Let\'s translate docs/intro.md to French.","sidebar":"tutorialSidebar"}}}}');
 
 /***/ },
 
@@ -29512,6 +30089,181 @@ function extractMDXAdmonitionTitle(children){const items=react__WEBPACK_IMPORTED
 
 "use strict";
 module.exports = /*#__PURE__*/JSON.parse('{"name":"docusaurus-plugin-content-pages","id":"default"}');
+
+/***/ },
+
+/***/ 88907
+(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   assets: () => (/* binding */ assets),
+/* harmony export */   contentTitle: () => (/* binding */ contentTitle),
+/* harmony export */   "default": () => (/* binding */ MDXContent),
+/* harmony export */   frontMatter: () => (/* binding */ frontMatter),
+/* harmony export */   metadata: () => (/* reexport default export from named module */ _site_docusaurus_docusaurus_plugin_content_docs_default_site_docs_module_3_ai_robot_brain_index_md_8c6_json__WEBPACK_IMPORTED_MODULE_0__),
+/* harmony export */   toc: () => (/* binding */ toc)
+/* harmony export */ });
+/* harmony import */ var _site_docusaurus_docusaurus_plugin_content_docs_default_site_docs_module_3_ai_robot_brain_index_md_8c6_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(53474);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(74848);
+/* harmony import */ var _mdx_js_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(28453);
+
+
+const frontMatter = {};
+const contentTitle = 'Module 3: The AI-Robot Brain';
+
+const assets = {
+
+};
+
+
+
+const toc = [{
+  "value": "NVIDIA Isaac Sim &amp; USD",
+  "id": "nvidia-isaac-sim--usd",
+  "level": 2
+}, {
+  "value": "Isaac ROS: VSLAM &amp; Nav2",
+  "id": "isaac-ros-vslam--nav2",
+  "level": 2
+}, {
+  "value": "Weekly Breakdown",
+  "id": "weekly-breakdown",
+  "level": 2
+}, {
+  "value": "Week 6: Computer Vision",
+  "id": "week-6-computer-vision",
+  "level": 3
+}, {
+  "value": "Week 7: VSLAM &amp; Navigation",
+  "id": "week-7-vslam--navigation",
+  "level": 3
+}, {
+  "value": "Week 8: Photo-realistic Rendering",
+  "id": "week-8-photo-realistic-rendering",
+  "level": 3
+}];
+function _createMdxContent(props) {
+  const _components = {
+    a: "a",
+    admonition: "admonition",
+    h1: "h1",
+    h2: "h2",
+    h3: "h3",
+    header: "header",
+    li: "li",
+    ol: "ol",
+    p: "p",
+    strong: "strong",
+    ul: "ul",
+    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
+    ...props.components
+  };
+  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
+    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.header, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h1, {
+        id: "module-3-the-ai-robot-brain",
+        children: "Module 3: The AI-Robot Brain"
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
+      children: ["This module focuses on ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+        children: "Embodied Intelligence"
+      }), ". We transition from basic mechanics to high-level perception and path planning using NVIDIA's ecosystem."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "nvidia-isaac-sim--usd",
+      children: "NVIDIA Isaac Sim & USD"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
+      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+        children: "NVIDIA Isaac Sim"
+      }), " is built on the ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+        children: "Universal Scene Description (USD)"
+      }), " format."]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "USD Advantage:"
+        }), " Allows for non-destructive editing and collaborative 3D workflows between engineers and artists."]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Workflow:"
+        }), " Export your robot from URDF to USD for high-fidelity photorealistic simulation."]
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "isaac-ros-vslam--nav2",
+      children: "Isaac ROS: VSLAM & Nav2"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
+      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+        children: "Isaac ROS"
+      }), " provides hardware-accelerated packages for common robotic tasks:"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ol, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "VSLAM (Visual Simultaneous Localization and Mapping):"
+        }), " Uses camera feeds to determine the robot's position in an unknown environment."]
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.li, {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Nav2 (Navigation 2):"
+        }), " A modular navigation stack that handles obstacle avoidance and global path planning."]
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.admonition, {
+      title: "Sim-to-Real Transfer",
+      type: "tip",
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.p, {
+        children: ["To ensure algorithms learned in simulation work on physical hardware (", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.a, {
+          href: "/robotics-ai-book/docs/hardware-lab/",
+          children: "Hardware Lab Guide"
+        }), "), use ", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.strong, {
+          children: "Domain Randomization"
+        }), ". This involves varying light, textures, and physics parameters during training so the AI doesn't overfit to the virtual world."]
+      })
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h2, {
+      id: "weekly-breakdown",
+      children: "Weekly Breakdown"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
+      id: "week-6-computer-vision",
+      children: "Week 6: Computer Vision"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "GPU-accelerated OpenCV integration."
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Training object detection models for robotic interaction."
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
+      id: "week-7-vslam--navigation",
+      children: "Week 7: VSLAM & Navigation"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Implementing real-time mapping."
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Tuning Nav2 parameters for humanoid balance."
+      }), "\n"]
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.h3, {
+      id: "week-8-photo-realistic-rendering",
+      children: "Week 8: Photo-realistic Rendering"
+    }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(_components.ul, {
+      children: ["\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Advanced light modeling in Isaac Sim."
+      }), "\n", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_components.li, {
+        children: "Testing vision models against complex synthetic backgrounds."
+      }), "\n"]
+    })]
+  });
+}
+function MDXContent(props = {}) {
+  const {wrapper: MDXLayout} = {
+    ...(0,_mdx_js_react__WEBPACK_IMPORTED_MODULE_2__/* .useMDXComponents */ .R)(),
+    ...props.components
+  };
+  return MDXLayout ? (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(MDXLayout, {
+    ...props,
+    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_createMdxContent, {
+      ...props
+    })
+  }) : _createMdxContent(props);
+}
+
+
 
 /***/ },
 
@@ -29893,7 +30645,7 @@ module.exports = require("async_hooks");
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(96540);
 /* harmony import */ var _docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2067);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([{path:'/robotics-ai-book/blog',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog','fed'),exact:true},{path:'/robotics-ai-book/blog/archive',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/archive','63f'),exact:true},{path:'/robotics-ai-book/blog/authors',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/authors','7cb'),exact:true},{path:'/robotics-ai-book/blog/authors/all-sebastien-lorber-articles',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/authors/all-sebastien-lorber-articles','e2d'),exact:true},{path:'/robotics-ai-book/blog/authors/yangshun',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/authors/yangshun','12e'),exact:true},{path:'/robotics-ai-book/blog/first-blog-post',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/first-blog-post','98d'),exact:true},{path:'/robotics-ai-book/blog/long-blog-post',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/long-blog-post','2fb'),exact:true},{path:'/robotics-ai-book/blog/mdx-blog-post',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/mdx-blog-post','47c'),exact:true},{path:'/robotics-ai-book/blog/tags',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/tags','cf1'),exact:true},{path:'/robotics-ai-book/blog/tags/docusaurus',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/tags/docusaurus','cc4'),exact:true},{path:'/robotics-ai-book/blog/tags/facebook',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/tags/facebook','f3c'),exact:true},{path:'/robotics-ai-book/blog/tags/hello',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/tags/hello','acf'),exact:true},{path:'/robotics-ai-book/blog/tags/hola',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/tags/hola','f0d'),exact:true},{path:'/robotics-ai-book/blog/welcome',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/welcome','a77'),exact:true},{path:'/robotics-ai-book/markdown-page',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/markdown-page','068'),exact:true},{path:'/robotics-ai-book/docs',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs','425'),routes:[{path:'/robotics-ai-book/docs',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs','036'),routes:[{path:'/robotics-ai-book/docs',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs','a8c'),routes:[{path:'/robotics-ai-book/docs/body',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/body','018'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/brain',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/brain','04d'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/category/tutorial---basics',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/category/tutorial---basics','a63'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/category/tutorial---extras',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/category/tutorial---extras','9ac'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/edge',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/edge','5e7'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/foundations',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/foundations','9df'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/hardware-lab',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/hardware-lab','1e0'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/intro',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/intro','d05'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/module-1-robotic-nervous-system',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/module-1-robotic-nervous-system','fb6'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/tutorial-basics/congratulations',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/tutorial-basics/congratulations','963'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/tutorial-basics/create-a-blog-post',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/tutorial-basics/create-a-blog-post','50c'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/tutorial-basics/create-a-document',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/tutorial-basics/create-a-document','1d9'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/tutorial-basics/create-a-page',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/tutorial-basics/create-a-page','8c9'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/tutorial-basics/deploy-your-site',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/tutorial-basics/deploy-your-site','aef'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/tutorial-basics/markdown-features',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/tutorial-basics/markdown-features','d6c'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/tutorial-extras/manage-docs-versions',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/tutorial-extras/manage-docs-versions','63d'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/tutorial-extras/translate-your-site',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/tutorial-extras/translate-your-site','cb9'),exact:true,sidebar:"tutorialSidebar"}]}]}]},{path:'/robotics-ai-book/',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/','3a8'),exact:true},{path:'*',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('*')}]);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([{path:'/robotics-ai-book/blog',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog','fed'),exact:true},{path:'/robotics-ai-book/blog/archive',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/archive','63f'),exact:true},{path:'/robotics-ai-book/blog/authors',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/authors','7cb'),exact:true},{path:'/robotics-ai-book/blog/authors/all-sebastien-lorber-articles',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/authors/all-sebastien-lorber-articles','e2d'),exact:true},{path:'/robotics-ai-book/blog/authors/yangshun',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/authors/yangshun','12e'),exact:true},{path:'/robotics-ai-book/blog/first-blog-post',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/first-blog-post','98d'),exact:true},{path:'/robotics-ai-book/blog/long-blog-post',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/long-blog-post','2fb'),exact:true},{path:'/robotics-ai-book/blog/mdx-blog-post',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/mdx-blog-post','47c'),exact:true},{path:'/robotics-ai-book/blog/tags',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/tags','cf1'),exact:true},{path:'/robotics-ai-book/blog/tags/docusaurus',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/tags/docusaurus','cc4'),exact:true},{path:'/robotics-ai-book/blog/tags/facebook',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/tags/facebook','f3c'),exact:true},{path:'/robotics-ai-book/blog/tags/hello',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/tags/hello','acf'),exact:true},{path:'/robotics-ai-book/blog/tags/hola',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/tags/hola','f0d'),exact:true},{path:'/robotics-ai-book/blog/welcome',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/blog/welcome','a77'),exact:true},{path:'/robotics-ai-book/markdown-page',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/markdown-page','068'),exact:true},{path:'/robotics-ai-book/docs',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs','89a'),routes:[{path:'/robotics-ai-book/docs',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs','7bf'),routes:[{path:'/robotics-ai-book/docs',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs','3ea'),routes:[{path:'/robotics-ai-book/docs/body',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/body','018'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/brain',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/brain','04d'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/category/tutorial---basics',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/category/tutorial---basics','a63'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/category/tutorial---extras',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/category/tutorial---extras','9ac'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/edge',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/edge','5e7'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/foundations',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/foundations','9df'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/hardware-lab',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/hardware-lab','1e0'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/intro',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/intro','d05'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/module-1-robotic-nervous-system',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/module-1-robotic-nervous-system','fb6'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/module-2-digital-twin',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/module-2-digital-twin','aa7'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/module-2-digital-twin/sensors',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/module-2-digital-twin/sensors','569'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/module-3-ai-robot-brain',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/module-3-ai-robot-brain','3af'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/module-4-vla-capstone',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/module-4-vla-capstone','755'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/tutorial-basics/congratulations',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/tutorial-basics/congratulations','963'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/tutorial-basics/create-a-blog-post',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/tutorial-basics/create-a-blog-post','50c'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/tutorial-basics/create-a-document',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/tutorial-basics/create-a-document','1d9'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/tutorial-basics/create-a-page',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/tutorial-basics/create-a-page','8c9'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/tutorial-basics/deploy-your-site',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/tutorial-basics/deploy-your-site','aef'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/tutorial-basics/markdown-features',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/tutorial-basics/markdown-features','d6c'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/tutorial-extras/manage-docs-versions',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/tutorial-extras/manage-docs-versions','63d'),exact:true,sidebar:"tutorialSidebar"},{path:'/robotics-ai-book/docs/tutorial-extras/translate-your-site',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/docs/tutorial-extras/translate-your-site','cb9'),exact:true,sidebar:"tutorialSidebar"}]}]}]},{path:'/robotics-ai-book/',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('/robotics-ai-book/','3a8'),exact:true},{path:'*',component:(0,_docusaurus_ComponentCreator__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .A)('*')}]);
 
 /***/ },
 

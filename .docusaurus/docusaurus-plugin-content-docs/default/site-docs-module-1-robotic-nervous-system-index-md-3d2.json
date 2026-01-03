@@ -16,5 +16,9 @@
   "previous": {
     "title": "Hardware & Lab Setup",
     "permalink": "/robotics-ai-book/docs/hardware-lab/"
+  },
+  "next": {
+    "title": "Module 2: The Digital Twin",
+    "permalink": "/robotics-ai-book/docs/module-2-digital-twin/"
   }
 }

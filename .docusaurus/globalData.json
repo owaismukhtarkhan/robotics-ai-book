@@ -8,28 +8,8 @@
           "label": "Next",
           "isLast": true,
           "path": "/robotics-ai-book/docs",
-          "mainDocId": "foundations/index",
+          "mainDocId": "intro",
           "docs": [
-            {
-              "id": "body/index",
-              "path": "/robotics-ai-book/docs/body/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "brain/index",
-              "path": "/robotics-ai-book/docs/brain/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "edge/index",
-              "path": "/robotics-ai-book/docs/edge/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "foundations/index",
-              "path": "/robotics-ai-book/docs/foundations/",
-              "sidebar": "tutorialSidebar"
-            },
             {
               "id": "hardware-lab/index",
               "path": "/robotics-ai-book/docs/hardware-lab/",
@@ -46,53 +26,23 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/congratulations",
-              "path": "/robotics-ai-book/docs/tutorial-basics/congratulations",
+              "id": "module-2-digital-twin/index",
+              "path": "/robotics-ai-book/docs/module-2-digital-twin/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/robotics-ai-book/docs/tutorial-basics/create-a-blog-post",
+              "id": "module-2-digital-twin/sensors",
+              "path": "/robotics-ai-book/docs/module-2-digital-twin/sensors",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/robotics-ai-book/docs/tutorial-basics/create-a-document",
+              "id": "module-3-ai-robot-brain/index",
+              "path": "/robotics-ai-book/docs/module-3-ai-robot-brain/",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/robotics-ai-book/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/robotics-ai-book/docs/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/robotics-ai-book/docs/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/robotics-ai-book/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/robotics-ai-book/docs/tutorial-extras/translate-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---basics",
-              "path": "/robotics-ai-book/docs/category/tutorial---basics",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/tutorial---extras",
-              "path": "/robotics-ai-book/docs/category/tutorial---extras",
+              "id": "module-4-vla-capstone/index",
+              "path": "/robotics-ai-book/docs/module-4-vla-capstone/",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -100,8 +50,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/robotics-ai-book/docs/foundations/",
-                "label": "Foundations of Physical AI"
+                "path": "/robotics-ai-book/docs/intro",
+                "label": "intro"
               }
             }
           }
