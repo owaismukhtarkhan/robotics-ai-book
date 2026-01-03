@@ -15,15 +15,16 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://robotics-ai-book.pages.dev',
+  url: 'https://owaismukhtarkhan.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/robotics-ai-book/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'owaismukhtarkhan', // Usually your GitHub org/user name.
   projectName: 'robotics-ai-book', // Usually your repo name.
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
 
