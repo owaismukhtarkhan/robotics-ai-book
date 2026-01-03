@@ -120,18 +120,30 @@ export default {
           "title": "Curriculum",
           "items": [
             {
-              "label": "Introduction",
-              "to": "/docs/intro"
-            },
-            {
               "label": "Module 1: Nervous System",
               "to": "/docs/module-1-robotic-nervous-system/"
+            },
+            {
+              "label": "Module 2: Digital Twin",
+              "to": "/docs/module-2-digital-twin/"
+            },
+            {
+              "label": "Module 3: AI Brain",
+              "to": "/docs/module-3-ai-robot-brain/"
+            },
+            {
+              "label": "Module 4: VLA Capstone",
+              "to": "/docs/module-4-vla-capstone/"
             }
           ]
         },
         {
-          "title": "Community",
+          "title": "Resources",
           "items": [
+            {
+              "label": "Hardware Lab",
+              "to": "/docs/hardware-lab/"
+            },
             {
               "label": "GitHub Discussions",
               "href": "https://github.com/owaismukhtarkhan/robotics-ai-book/discussions"
