@@ -49,11 +49,11 @@
       1869,
       8209
     ],
-    "04f2558c": [
-      6150
-    ],
     "0e384e19": [
       3976
+    ],
+    "12d0710c": [
+      7153
     ],
     "144960c5": [
       4163
@@ -64,9 +64,6 @@
     ],
     "18c41134": [
       9262
-    ],
-    "196a56e8": [
-      2952
     ],
     "1df93b7f": [
       1869,
@@ -80,8 +77,14 @@
       5159,
       6061
     ],
-    "26f6614d": [
-      6364
+    "23b99d2f": [
+      1722
+    ],
+    "2718a1b5": [
+      4308
+    ],
+    "2f9f16e3": [
+      3571
     ],
     "33f8ef06": [
       704
@@ -98,8 +101,11 @@
     "393be207": [
       4134
     ],
-    "4c82ab6e": [
-      5940
+    "3983ea29": [
+      1281
+    ],
+    "3d2f0381": [
+      8404
     ],
     "50d178e5": [
       8962
@@ -107,14 +113,11 @@
     "533a09ca": [
       3098
     ],
-    "5555825e": [
-      9159
-    ],
     "5c868d36": [
       1974
     ],
-    "5d2802f8": [
-      4170
+    "5d1bb790": [
+      1411
     ],
     "5e95c892": [
       9647
@@ -123,6 +126,9 @@
       1869,
       3269,
       4212
+    ],
+    "6264287f": [
+      340
     ],
     "6875c492": [
       1869,
@@ -145,8 +151,11 @@
     "8717b14a": [
       3694
     ],
-    "9198a85b": [
-      6940
+    "87756a98": [
+      5400
+    ],
+    "8e66a749": [
+      6683
     ],
     "925b3f96": [
       8609
@@ -154,11 +163,17 @@
     "9e4087bc": [
       2711
     ],
+    "a4733394": [
+      3071
+    ],
     "a6aa9e1f": [
       1869,
       3269,
       5159,
       7643
+    ],
+    "a6f721d8": [
+      4648
     ],
     "a7456010": [
       1235
@@ -176,11 +191,8 @@
     "acecf23e": [
       1903
     ],
-    "b99ebf8a": [
-      7627
-    ],
-    "bc04b2c4": [
-      5687
+    "c7a645a6": [
+      1660
     ],
     "ccc49370": [
       1869,
@@ -188,17 +200,11 @@
       5159,
       3249
     ],
-    "d0c69140": [
-      1782
-    ],
-    "d43109ce": [
-      3274
+    "cd04b41c": [
+      1352
     ],
     "d9f32620": [
       5557
-    ],
-    "dacbf14b": [
-      6580
     ],
     "dff1c289": [
       1724
@@ -206,8 +212,8 @@
     "e273c56f": [
       9328
     ],
-    "e3263f28": [
-      9106
+    "e33300dd": [
+      109
     ],
     "e44a2883": [
       4736
@@ -215,11 +221,11 @@
     "f4f34a3a": [
       3637
     ],
+    "f53ccc19": [
+      1066
+    ],
     "f55d3e7a": [
       8863
-    ],
-    "f91af3b3": [
-      6930
     ],
     "styles": [
       867,
@@ -241,12 +247,30 @@
     ]
   },
   "assets": {
+    "109": {
+      "js": [
+        {
+          "file": "assets/js/e33300dd.1abd571c.js",
+          "hash": "ea2428b1e698cb6f",
+          "publicPath": "/robotics-ai-book/assets/js/e33300dd.1abd571c.js"
+        }
+      ]
+    },
+    "340": {
+      "js": [
+        {
+          "file": "assets/js/6264287f.fcee5acb.js",
+          "hash": "9d212e225d13f6e9",
+          "publicPath": "/robotics-ai-book/assets/js/6264287f.fcee5acb.js"
+        }
+      ]
+    },
     "704": {
       "js": [
         {
-          "file": "assets/js/33f8ef06.dc5541cc.js",
-          "hash": "8678e9c2e89009ea",
-          "publicPath": "/ur/assets/js/33f8ef06.dc5541cc.js"
+          "file": "assets/js/33f8ef06.3eb1b878.js",
+          "hash": "131939d92838db2c",
+          "publicPath": "/robotics-ai-book/assets/js/33f8ef06.3eb1b878.js"
         }
       ]
     },
@@ -255,7 +279,16 @@
         {
           "file": "assets/js/33fc5bb8.e958187a.js",
           "hash": "d2433fddd79a252e",
-          "publicPath": "/ur/assets/js/33fc5bb8.e958187a.js"
+          "publicPath": "/robotics-ai-book/assets/js/33fc5bb8.e958187a.js"
+        }
+      ]
+    },
+    "1066": {
+      "js": [
+        {
+          "file": "assets/js/f53ccc19.81c56e34.js",
+          "hash": "3b2fc1dde0610de0",
+          "publicPath": "/robotics-ai-book/assets/js/f53ccc19.81c56e34.js"
         }
       ]
     },
@@ -264,70 +297,106 @@
         {
           "file": "assets/js/a7456010.437accc1.js",
           "hash": "28fa940f098299a7",
-          "publicPath": "/ur/assets/js/a7456010.437accc1.js"
+          "publicPath": "/robotics-ai-book/assets/js/a7456010.437accc1.js"
+        }
+      ]
+    },
+    "1281": {
+      "js": [
+        {
+          "file": "assets/js/3983ea29.e5abf986.js",
+          "hash": "ab8c72c99b9a7326",
+          "publicPath": "/robotics-ai-book/assets/js/3983ea29.e5abf986.js"
+        }
+      ]
+    },
+    "1352": {
+      "js": [
+        {
+          "file": "assets/js/cd04b41c.8c3b2515.js",
+          "hash": "043fe1b5736bc8e6",
+          "publicPath": "/robotics-ai-book/assets/js/cd04b41c.8c3b2515.js"
+        }
+      ]
+    },
+    "1411": {
+      "js": [
+        {
+          "file": "assets/js/5d1bb790.1915f71e.js",
+          "hash": "5fb3129afcebbac0",
+          "publicPath": "/robotics-ai-book/assets/js/5d1bb790.1915f71e.js"
+        }
+      ]
+    },
+    "1660": {
+      "js": [
+        {
+          "file": "assets/js/c7a645a6.c0814a7c.js",
+          "hash": "fe5c78c01deca3a1",
+          "publicPath": "/robotics-ai-book/assets/js/c7a645a6.c0814a7c.js"
+        }
+      ]
+    },
+    "1722": {
+      "js": [
+        {
+          "file": "assets/js/23b99d2f.3305db42.js",
+          "hash": "d2d8189a88996177",
+          "publicPath": "/robotics-ai-book/assets/js/23b99d2f.3305db42.js"
         }
       ]
     },
     "1724": {
       "js": [
         {
-          "file": "assets/js/dff1c289.ff0ad98a.js",
-          "hash": "7cb4ccdc368bf2f7",
-          "publicPath": "/ur/assets/js/dff1c289.ff0ad98a.js"
-        }
-      ]
-    },
-    "1782": {
-      "js": [
-        {
-          "file": "assets/js/d0c69140.e9969f49.js",
-          "hash": "ed1128f613483c8a",
-          "publicPath": "/ur/assets/js/d0c69140.e9969f49.js"
+          "file": "assets/js/dff1c289.2ecd1785.js",
+          "hash": "4ff73a58dd6f6b4f",
+          "publicPath": "/robotics-ai-book/assets/js/dff1c289.2ecd1785.js"
         }
       ]
     },
     "1869": {
       "css": [
         {
-          "file": "assets/css/styles.dd8d3a73.css",
-          "hash": "ed3e8fe15050ef79",
-          "publicPath": "/ur/assets/css/styles.dd8d3a73.css"
+          "file": "assets/css/styles.c51ffe61.css",
+          "hash": "da4c569ca76a79aa",
+          "publicPath": "/robotics-ai-book/assets/css/styles.c51ffe61.css"
         }
       ]
     },
     "1903": {
       "js": [
         {
-          "file": "assets/js/acecf23e.6d078625.js",
-          "hash": "034447aac61f8e70",
-          "publicPath": "/ur/assets/js/acecf23e.6d078625.js"
+          "file": "assets/js/acecf23e.1b387c37.js",
+          "hash": "18f4e29b3d2556c3",
+          "publicPath": "/robotics-ai-book/assets/js/acecf23e.1b387c37.js"
         }
       ]
     },
     "1953": {
       "js": [
         {
-          "file": "assets/js/1e4232ab.0207325a.js",
-          "hash": "c133b952065b9df3",
-          "publicPath": "/ur/assets/js/1e4232ab.0207325a.js"
+          "file": "assets/js/1e4232ab.bf55fb0f.js",
+          "hash": "546252e6ee3a9546",
+          "publicPath": "/robotics-ai-book/assets/js/1e4232ab.bf55fb0f.js"
         }
       ]
     },
     "1972": {
       "js": [
         {
-          "file": "assets/js/73664a40.078052d5.js",
-          "hash": "3f53a05d1ecc1fb4",
-          "publicPath": "/ur/assets/js/73664a40.078052d5.js"
+          "file": "assets/js/73664a40.ef59f40a.js",
+          "hash": "558c1b1cf4f4dc8d",
+          "publicPath": "/robotics-ai-book/assets/js/73664a40.ef59f40a.js"
         }
       ]
     },
     "1974": {
       "js": [
         {
-          "file": "assets/js/5c868d36.e24de523.js",
-          "hash": "13a8c793a3219dc3",
-          "publicPath": "/ur/assets/js/5c868d36.e24de523.js"
+          "file": "assets/js/5c868d36.c8d9753b.js",
+          "hash": "367ed5b39513696c",
+          "publicPath": "/robotics-ai-book/assets/js/5c868d36.c8d9753b.js"
         }
       ]
     },
@@ -336,7 +405,7 @@
         {
           "file": "assets/js/2237.6e1c2e45.js",
           "hash": "a31b6f170c209bf5",
-          "publicPath": "/ur/assets/js/2237.6e1c2e45.js"
+          "publicPath": "/robotics-ai-book/assets/js/2237.6e1c2e45.js"
         }
       ]
     },
@@ -345,34 +414,34 @@
         {
           "file": "assets/js/9e4087bc.64080b78.js",
           "hash": "7e5c83cdd45efaf3",
-          "publicPath": "/ur/assets/js/9e4087bc.64080b78.js"
+          "publicPath": "/robotics-ai-book/assets/js/9e4087bc.64080b78.js"
         }
       ]
     },
     "2748": {
       "js": [
         {
-          "file": "assets/js/822bd8ab.ec3b29ff.js",
-          "hash": "787ce72757d56053",
-          "publicPath": "/ur/assets/js/822bd8ab.ec3b29ff.js"
+          "file": "assets/js/822bd8ab.486bca0d.js",
+          "hash": "5acf22f68dba5c56",
+          "publicPath": "/robotics-ai-book/assets/js/822bd8ab.486bca0d.js"
         }
       ]
     },
-    "2952": {
+    "3071": {
       "js": [
         {
-          "file": "assets/js/196a56e8.c978b600.js",
-          "hash": "b6e6634a1437d96f",
-          "publicPath": "/ur/assets/js/196a56e8.c978b600.js"
+          "file": "assets/js/a4733394.d731bfaf.js",
+          "hash": "96cd35043c9b4e50",
+          "publicPath": "/robotics-ai-book/assets/js/a4733394.d731bfaf.js"
         }
       ]
     },
     "3098": {
       "js": [
         {
-          "file": "assets/js/533a09ca.89110ce5.js",
-          "hash": "c9c177a55576d252",
-          "publicPath": "/ur/assets/js/533a09ca.89110ce5.js"
+          "file": "assets/js/533a09ca.c9c3ef76.js",
+          "hash": "8492aef1f5a15969",
+          "publicPath": "/robotics-ai-book/assets/js/533a09ca.c9c3ef76.js"
         }
       ]
     },
@@ -381,7 +450,7 @@
         {
           "file": "assets/js/ccc49370.22f0a8ce.js",
           "hash": "129895bf479aea1b",
-          "publicPath": "/ur/assets/js/ccc49370.22f0a8ce.js"
+          "publicPath": "/robotics-ai-book/assets/js/ccc49370.22f0a8ce.js"
         }
       ]
     },
@@ -390,70 +459,61 @@
         {
           "file": "assets/js/3269.66632b12.js",
           "hash": "9817a6b36ed4f253",
-          "publicPath": "/ur/assets/js/3269.66632b12.js"
+          "publicPath": "/robotics-ai-book/assets/js/3269.66632b12.js"
         }
       ]
     },
-    "3274": {
+    "3571": {
       "js": [
         {
-          "file": "assets/js/d43109ce.98a646e0.js",
-          "hash": "c7f80934e6b57698",
-          "publicPath": "/ur/assets/js/d43109ce.98a646e0.js"
+          "file": "assets/js/2f9f16e3.fe7bdf89.js",
+          "hash": "0a4436a899a8c8c6",
+          "publicPath": "/robotics-ai-book/assets/js/2f9f16e3.fe7bdf89.js"
         }
       ]
     },
     "3637": {
       "js": [
         {
-          "file": "assets/js/f4f34a3a.25e68748.js",
-          "hash": "2ef4ff24bad2f7fb",
-          "publicPath": "/ur/assets/js/f4f34a3a.25e68748.js"
+          "file": "assets/js/f4f34a3a.4935e8d3.js",
+          "hash": "d488a444452ec40b",
+          "publicPath": "/robotics-ai-book/assets/js/f4f34a3a.4935e8d3.js"
         }
       ]
     },
     "3694": {
       "js": [
         {
-          "file": "assets/js/8717b14a.12b2cee3.js",
-          "hash": "cafb97aa94b6b313",
-          "publicPath": "/ur/assets/js/8717b14a.12b2cee3.js"
+          "file": "assets/js/8717b14a.4daad2dd.js",
+          "hash": "d35846798860a7f4",
+          "publicPath": "/robotics-ai-book/assets/js/8717b14a.4daad2dd.js"
         }
       ]
     },
     "3976": {
       "js": [
         {
-          "file": "assets/js/0e384e19.151d4109.js",
-          "hash": "bfcf28335d0d2c0e",
-          "publicPath": "/ur/assets/js/0e384e19.151d4109.js"
+          "file": "assets/js/0e384e19.12ceed2d.js",
+          "hash": "0afb48d6a0f6f300",
+          "publicPath": "/robotics-ai-book/assets/js/0e384e19.12ceed2d.js"
         }
       ]
     },
     "4134": {
       "js": [
         {
-          "file": "assets/js/393be207.4b8d1abf.js",
-          "hash": "b025d1c19b2bf930",
-          "publicPath": "/ur/assets/js/393be207.4b8d1abf.js"
+          "file": "assets/js/393be207.1f53d69d.js",
+          "hash": "ee346ba52e23a7f7",
+          "publicPath": "/robotics-ai-book/assets/js/393be207.1f53d69d.js"
         }
       ]
     },
     "4163": {
       "js": [
         {
-          "file": "assets/js/144960c5.5a8aaa38.js",
-          "hash": "f73d05f220286e51",
-          "publicPath": "/ur/assets/js/144960c5.5a8aaa38.js"
-        }
-      ]
-    },
-    "4170": {
-      "js": [
-        {
-          "file": "assets/js/5d2802f8.9f7aeca8.js",
-          "hash": "ac35bcaf2f057a91",
-          "publicPath": "/ur/assets/js/5d2802f8.9f7aeca8.js"
+          "file": "assets/js/144960c5.6b4c06da.js",
+          "hash": "7c711dfc565e5b76",
+          "publicPath": "/robotics-ai-book/assets/js/144960c5.6b4c06da.js"
         }
       ]
     },
@@ -462,7 +522,16 @@
         {
           "file": "assets/js/621db11d.b2a5cd41.js",
           "hash": "4759873d24113a72",
-          "publicPath": "/ur/assets/js/621db11d.b2a5cd41.js"
+          "publicPath": "/robotics-ai-book/assets/js/621db11d.b2a5cd41.js"
+        }
+      ]
+    },
+    "4308": {
+      "js": [
+        {
+          "file": "assets/js/2718a1b5.b5f6e4bb.js",
+          "hash": "5edd1067be985417",
+          "publicPath": "/robotics-ai-book/assets/js/2718a1b5.b5f6e4bb.js"
         }
       ]
     },
@@ -471,16 +540,25 @@
         {
           "file": "assets/js/1df93b7f.a4afaa9a.js",
           "hash": "4b5611301b7450ec",
-          "publicPath": "/ur/assets/js/1df93b7f.a4afaa9a.js"
+          "publicPath": "/robotics-ai-book/assets/js/1df93b7f.a4afaa9a.js"
+        }
+      ]
+    },
+    "4648": {
+      "js": [
+        {
+          "file": "assets/js/a6f721d8.260cda31.js",
+          "hash": "fa9b42ab8ee6993a",
+          "publicPath": "/robotics-ai-book/assets/js/a6f721d8.260cda31.js"
         }
       ]
     },
     "4736": {
       "js": [
         {
-          "file": "assets/js/e44a2883.593d6674.js",
-          "hash": "3ebb29ad71d4b9e7",
-          "publicPath": "/ur/assets/js/e44a2883.593d6674.js"
+          "file": "assets/js/e44a2883.6cfff230.js",
+          "hash": "ff1f92b6c5d18238",
+          "publicPath": "/robotics-ai-book/assets/js/e44a2883.6cfff230.js"
         }
       ]
     },
@@ -489,7 +567,7 @@
         {
           "file": "assets/js/6875c492.3da58e0e.js",
           "hash": "7ad9ed7751ec56f7",
-          "publicPath": "/ur/assets/js/6875c492.3da58e0e.js"
+          "publicPath": "/robotics-ai-book/assets/js/6875c492.3da58e0e.js"
         }
       ]
     },
@@ -498,34 +576,34 @@
         {
           "file": "assets/js/5159.f4b82802.js",
           "hash": "e9e3057e365c9d80",
-          "publicPath": "/ur/assets/js/5159.f4b82802.js"
+          "publicPath": "/robotics-ai-book/assets/js/5159.f4b82802.js"
         }
       ]
     },
     "5354": {
       "js": [
         {
-          "file": "assets/js/runtime~main.a3c788ab.js",
-          "hash": "43ef6115bed731e0",
-          "publicPath": "/ur/assets/js/runtime~main.a3c788ab.js"
+          "file": "assets/js/runtime~main.7f1233cc.js",
+          "hash": "198bdbd6574a2d3c",
+          "publicPath": "/robotics-ai-book/assets/js/runtime~main.7f1233cc.js"
+        }
+      ]
+    },
+    "5400": {
+      "js": [
+        {
+          "file": "assets/js/87756a98.6619a1f7.js",
+          "hash": "5969ad763cf1fe64",
+          "publicPath": "/robotics-ai-book/assets/js/87756a98.6619a1f7.js"
         }
       ]
     },
     "5557": {
       "js": [
         {
-          "file": "assets/js/d9f32620.fcaf013c.js",
-          "hash": "3df4174c9161db30",
-          "publicPath": "/ur/assets/js/d9f32620.fcaf013c.js"
-        }
-      ]
-    },
-    "5687": {
-      "js": [
-        {
-          "file": "assets/js/bc04b2c4.02ead4d9.js",
-          "hash": "7174b358085d8147",
-          "publicPath": "/ur/assets/js/bc04b2c4.02ead4d9.js"
+          "file": "assets/js/d9f32620.a1001b4d.js",
+          "hash": "17cde0d808c7ad53",
+          "publicPath": "/robotics-ai-book/assets/js/d9f32620.a1001b4d.js"
         }
       ]
     },
@@ -534,16 +612,7 @@
         {
           "file": "assets/js/aba21aa0.cf9ab232.js",
           "hash": "4b8de8fbf871049b",
-          "publicPath": "/ur/assets/js/aba21aa0.cf9ab232.js"
-        }
-      ]
-    },
-    "5940": {
-      "js": [
-        {
-          "file": "assets/js/4c82ab6e.960a04dd.js",
-          "hash": "a56d8ed2abe5d029",
-          "publicPath": "/ur/assets/js/4c82ab6e.960a04dd.js"
+          "publicPath": "/robotics-ai-book/assets/js/aba21aa0.cf9ab232.js"
         }
       ]
     },
@@ -552,52 +621,16 @@
         {
           "file": "assets/js/1f391b9e.af8cdcac.js",
           "hash": "da2c00e9095df5b9",
-          "publicPath": "/ur/assets/js/1f391b9e.af8cdcac.js"
+          "publicPath": "/robotics-ai-book/assets/js/1f391b9e.af8cdcac.js"
         }
       ]
     },
-    "6150": {
+    "6683": {
       "js": [
         {
-          "file": "assets/js/04f2558c.294f3155.js",
-          "hash": "e005b4ce9452b6d7",
-          "publicPath": "/ur/assets/js/04f2558c.294f3155.js"
-        }
-      ]
-    },
-    "6364": {
-      "js": [
-        {
-          "file": "assets/js/26f6614d.619bb590.js",
-          "hash": "c9012aad2f814255",
-          "publicPath": "/ur/assets/js/26f6614d.619bb590.js"
-        }
-      ]
-    },
-    "6580": {
-      "js": [
-        {
-          "file": "assets/js/dacbf14b.12437db2.js",
-          "hash": "c86e2c0e05e9c4c2",
-          "publicPath": "/ur/assets/js/dacbf14b.12437db2.js"
-        }
-      ]
-    },
-    "6930": {
-      "js": [
-        {
-          "file": "assets/js/f91af3b3.6e4875e0.js",
-          "hash": "a053a1488e7e69b6",
-          "publicPath": "/ur/assets/js/f91af3b3.6e4875e0.js"
-        }
-      ]
-    },
-    "6940": {
-      "js": [
-        {
-          "file": "assets/js/9198a85b.f0610bb8.js",
-          "hash": "ede6432a022c6eaa",
-          "publicPath": "/ur/assets/js/9198a85b.f0610bb8.js"
+          "file": "assets/js/8e66a749.2061c2fa.js",
+          "hash": "f46530f2cb6fc62d",
+          "publicPath": "/robotics-ai-book/assets/js/8e66a749.2061c2fa.js"
         }
       ]
     },
@@ -606,7 +639,7 @@
         {
           "file": "assets/js/14eb3368.2e92f15a.js",
           "hash": "368000c83633cff7",
-          "publicPath": "/ur/assets/js/14eb3368.2e92f15a.js"
+          "publicPath": "/robotics-ai-book/assets/js/14eb3368.2e92f15a.js"
         }
       ]
     },
@@ -615,25 +648,25 @@
         {
           "file": "assets/js/a7bd4aaa.478b5f19.js",
           "hash": "cea5a5e08532fd8c",
-          "publicPath": "/ur/assets/js/a7bd4aaa.478b5f19.js"
+          "publicPath": "/robotics-ai-book/assets/js/a7bd4aaa.478b5f19.js"
+        }
+      ]
+    },
+    "7153": {
+      "js": [
+        {
+          "file": "assets/js/12d0710c.6cd873a6.js",
+          "hash": "a91becde2c7cd51c",
+          "publicPath": "/robotics-ai-book/assets/js/12d0710c.6cd873a6.js"
         }
       ]
     },
     "7472": {
       "js": [
         {
-          "file": "assets/js/814f3328.e8433da0.js",
-          "hash": "4bce33df627dcbb5",
-          "publicPath": "/ur/assets/js/814f3328.e8433da0.js"
-        }
-      ]
-    },
-    "7627": {
-      "js": [
-        {
-          "file": "assets/js/b99ebf8a.97569c11.js",
-          "hash": "55302136fe82bee4",
-          "publicPath": "/ur/assets/js/b99ebf8a.97569c11.js"
+          "file": "assets/js/814f3328.b105145d.js",
+          "hash": "415ec62a3252b780",
+          "publicPath": "/robotics-ai-book/assets/js/814f3328.b105145d.js"
         }
       ]
     },
@@ -642,7 +675,7 @@
         {
           "file": "assets/js/a6aa9e1f.605cdf62.js",
           "hash": "c91109e1d5e3c83c",
-          "publicPath": "/ur/assets/js/a6aa9e1f.605cdf62.js"
+          "publicPath": "/robotics-ai-book/assets/js/a6aa9e1f.605cdf62.js"
         }
       ]
     },
@@ -651,7 +684,7 @@
         {
           "file": "assets/js/01a85c17.5b4d7762.js",
           "hash": "1a3325d8a48944a7",
-          "publicPath": "/ur/assets/js/01a85c17.5b4d7762.js"
+          "publicPath": "/robotics-ai-book/assets/js/01a85c17.5b4d7762.js"
         }
       ]
     },
@@ -660,52 +693,61 @@
         {
           "file": "assets/js/17896441.6be1cfdd.js",
           "hash": "b2a81a86ae1ecc04",
-          "publicPath": "/ur/assets/js/17896441.6be1cfdd.js"
+          "publicPath": "/robotics-ai-book/assets/js/17896441.6be1cfdd.js"
+        }
+      ]
+    },
+    "8404": {
+      "js": [
+        {
+          "file": "assets/js/3d2f0381.d905825c.js",
+          "hash": "4a5ffcb213771c3a",
+          "publicPath": "/robotics-ai-book/assets/js/3d2f0381.d905825c.js"
         }
       ]
     },
     "8609": {
       "js": [
         {
-          "file": "assets/js/925b3f96.7aec7914.js",
-          "hash": "e7a51d7b9d4217e9",
-          "publicPath": "/ur/assets/js/925b3f96.7aec7914.js"
+          "file": "assets/js/925b3f96.1b60a225.js",
+          "hash": "453dbaf70ba570b8",
+          "publicPath": "/robotics-ai-book/assets/js/925b3f96.1b60a225.js"
         }
       ]
     },
     "8737": {
       "js": [
         {
-          "file": "assets/js/7661071f.c1ae54b3.js",
-          "hash": "d0d6a28fa144ffef",
-          "publicPath": "/ur/assets/js/7661071f.c1ae54b3.js"
+          "file": "assets/js/7661071f.222b81ef.js",
+          "hash": "53431717058a71ec",
+          "publicPath": "/robotics-ai-book/assets/js/7661071f.222b81ef.js"
         }
       ]
     },
     "8792": {
       "js": [
         {
-          "file": "assets/js/main.080dd971.js",
-          "hash": "a0583ca15e9a8429",
-          "publicPath": "/ur/assets/js/main.080dd971.js"
+          "file": "assets/js/main.43ab3942.js",
+          "hash": "024be4d401f0bf34",
+          "publicPath": "/robotics-ai-book/assets/js/main.43ab3942.js"
         }
       ]
     },
     "8863": {
       "js": [
         {
-          "file": "assets/js/f55d3e7a.7b434d84.js",
-          "hash": "bd74aec30f2938a9",
-          "publicPath": "/ur/assets/js/f55d3e7a.7b434d84.js"
+          "file": "assets/js/f55d3e7a.2ddeb676.js",
+          "hash": "b1f79ea28e1e9885",
+          "publicPath": "/robotics-ai-book/assets/js/f55d3e7a.2ddeb676.js"
         }
       ]
     },
     "8962": {
       "js": [
         {
-          "file": "assets/js/50d178e5.b4ce6780.js",
-          "hash": "f04c69b5c102688e",
-          "publicPath": "/ur/assets/js/50d178e5.b4ce6780.js"
+          "file": "assets/js/50d178e5.6438bb94.js",
+          "hash": "5bb6ebd3706dc548",
+          "publicPath": "/robotics-ai-book/assets/js/50d178e5.6438bb94.js"
         }
       ]
     },
@@ -714,52 +756,34 @@
         {
           "file": "assets/js/a94703ab.23fe1be5.js",
           "hash": "e1dfbc6b782d8795",
-          "publicPath": "/ur/assets/js/a94703ab.23fe1be5.js"
-        }
-      ]
-    },
-    "9106": {
-      "js": [
-        {
-          "file": "assets/js/e3263f28.57733703.js",
-          "hash": "efb7b84dcbe4c50f",
-          "publicPath": "/ur/assets/js/e3263f28.57733703.js"
-        }
-      ]
-    },
-    "9159": {
-      "js": [
-        {
-          "file": "assets/js/5555825e.0d5c73ea.js",
-          "hash": "e60daaeb5c359c83",
-          "publicPath": "/ur/assets/js/5555825e.0d5c73ea.js"
+          "publicPath": "/robotics-ai-book/assets/js/a94703ab.23fe1be5.js"
         }
       ]
     },
     "9262": {
       "js": [
         {
-          "file": "assets/js/18c41134.63307e5e.js",
-          "hash": "6318d587a16f5979",
-          "publicPath": "/ur/assets/js/18c41134.63307e5e.js"
+          "file": "assets/js/18c41134.57619e74.js",
+          "hash": "2e17b1df378295a5",
+          "publicPath": "/robotics-ai-book/assets/js/18c41134.57619e74.js"
         }
       ]
     },
     "9325": {
       "js": [
         {
-          "file": "assets/js/59362658.1ebd2133.js",
-          "hash": "49300a41de5ee0b3",
-          "publicPath": "/ur/assets/js/59362658.1ebd2133.js"
+          "file": "assets/js/59362658.0f416cf7.js",
+          "hash": "94614fa5ea84fce8",
+          "publicPath": "/robotics-ai-book/assets/js/59362658.0f416cf7.js"
         }
       ]
     },
     "9328": {
       "js": [
         {
-          "file": "assets/js/e273c56f.2593ca76.js",
-          "hash": "88c9d2a1435458a1",
-          "publicPath": "/ur/assets/js/e273c56f.2593ca76.js"
+          "file": "assets/js/e273c56f.309c9c91.js",
+          "hash": "494e0a7b3ac6a169",
+          "publicPath": "/robotics-ai-book/assets/js/e273c56f.309c9c91.js"
         }
       ]
     },
@@ -768,7 +792,7 @@
         {
           "file": "assets/js/5e95c892.039694ae.js",
           "hash": "49ed4cc5c719399b",
-          "publicPath": "/ur/assets/js/5e95c892.039694ae.js"
+          "publicPath": "/robotics-ai-book/assets/js/5e95c892.039694ae.js"
         }
       ]
     },
@@ -777,7 +801,7 @@
         {
           "file": "assets/js/36994c47.e1daf6e7.js",
           "hash": "a6d65ed92a02da56",
-          "publicPath": "/ur/assets/js/36994c47.e1daf6e7.js"
+          "publicPath": "/robotics-ai-book/assets/js/36994c47.e1daf6e7.js"
         }
       ]
     }

@@ -1,24 +1,29 @@
 {
   "modules": {
-    "foundations": {
+    "module-1-robotic-nervous-system": {
       "status": "Complete",
       "locales": ["en", "ur"],
-      "last_updated": "2026-01-03"
+      "last_updated": "2026-01-04"
     },
-    "brain": {
-      "status": "In Progress",
+    "module-2-digital-twin": {
+      "status": "Complete",
+      "locales": ["en", "ur"],
+      "last_updated": "2026-01-04"
+    },
+    "module-3-ai-robot-brain": {
+      "status": "Complete",
+      "locales": ["en", "ur"],
+      "last_updated": "2026-01-04"
+    },
+    "module-4-vla-capstone": {
+      "status": "Complete",
+      "locales": ["en", "ur"],
+      "last_updated": "2026-01-04"
+    },
+    "hardware-lab": {
+      "status": "Complete",
       "locales": ["en"],
-      "last_updated": "2026-01-03"
-    },
-    "body": {
-      "status": "Pending",
-      "locales": [],
-      "last_updated": "2026-01-03"
-    },
-    "edge": {
-      "status": "Pending",
-      "locales": [],
-      "last_updated": "2026-01-03"
+      "last_updated": "2026-01-04"
     }
   }
 }

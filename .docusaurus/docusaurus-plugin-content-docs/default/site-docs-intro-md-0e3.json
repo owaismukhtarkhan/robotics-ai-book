@@ -1,11 +1,11 @@
 {
   "id": "intro",
-  "title": "Tutorial Intro",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "title": "Physical AI & Humanoid Robotics",
+  "description": "Welcome to the definitive guide and technical textbook for the Physical AI & Humanoid Robotics curriculum. This course bridges the gap between digital intelligence (LLMs) and embodied movement in the real world.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/ur/docs/intro",
+  "permalink": "/robotics-ai-book/docs/intro",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "فزیکل اے آئی کی بنیادیں (Foundations)",
-    "permalink": "/ur/docs/foundations/"
+    "title": "Foundations of Physical AI",
+    "permalink": "/robotics-ai-book/docs/foundations/"
   },
   "next": {
     "title": "Tutorial - Basics",
-    "permalink": "/ur/docs/category/tutorial---basics"
+    "permalink": "/robotics-ai-book/docs/category/tutorial---basics"
   }
 }

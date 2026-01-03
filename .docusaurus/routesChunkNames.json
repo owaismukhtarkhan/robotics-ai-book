@@ -1,5 +1,5 @@
 {
-  "/ur/blog-5a6": {
+  "/robotics-ai-book/blog-fed": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "36994c47"
@@ -19,16 +19,16 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "196a56e8"
+    "__props": "12d0710c"
   },
-  "/ur/blog/archive-1c5": {
+  "/robotics-ai-book/blog/archive-63f": {
     "__comp": "9e4087bc",
     "__context": {
       "plugin": "36994c47"
     },
-    "__props": "5d2802f8"
+    "__props": "8e66a749"
   },
-  "/ur/blog/authors-186": {
+  "/robotics-ai-book/blog/authors-7cb": {
     "__comp": "621db11d",
     "__context": {
       "data": {
@@ -37,9 +37,9 @@
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "__props": "d0c69140"
+    "__props": "c7a645a6"
   },
-  "/ur/blog/authors/all-sebastien-lorber-articles-536": {
+  "/robotics-ai-book/blog/authors/all-sebastien-lorber-articles-e2d": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -59,9 +59,9 @@
       }
     ],
     "sidebar": "814f3328",
-    "__props": "4c82ab6e"
+    "__props": "a6f721d8"
   },
-  "/ur/blog/authors/yangshun-09b": {
+  "/robotics-ai-book/blog/authors/yangshun-12e": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -81,9 +81,9 @@
       }
     ],
     "sidebar": "814f3328",
-    "__props": "26f6614d"
+    "__props": "23b99d2f"
   },
-  "/ur/blog/first-blog-post-fdc": {
+  "/robotics-ai-book/blog/first-blog-post-98d": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -94,7 +94,7 @@
     "sidebar": "814f3328",
     "content": "e273c56f"
   },
-  "/ur/blog/long-blog-post-941": {
+  "/robotics-ai-book/blog/long-blog-post-2fb": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -105,7 +105,7 @@
     "sidebar": "814f3328",
     "content": "73664a40"
   },
-  "/ur/blog/mdx-blog-post-db8": {
+  "/robotics-ai-book/blog/mdx-blog-post-47c": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -116,15 +116,15 @@
     "sidebar": "814f3328",
     "content": "59362658"
   },
-  "/ur/blog/tags-14b": {
+  "/robotics-ai-book/blog/tags-cf1": {
     "__comp": "01a85c17",
     "__context": {
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "__props": "dacbf14b"
+    "__props": "3983ea29"
   },
-  "/ur/blog/tags/docusaurus-591": {
+  "/robotics-ai-book/blog/tags/docusaurus-cc4": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -144,9 +144,9 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "f91af3b3"
+    "__props": "f53ccc19"
   },
-  "/ur/blog/tags/facebook-bc0": {
+  "/robotics-ai-book/blog/tags/facebook-f3c": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -157,9 +157,9 @@
         "content": "7661071f"
       }
     ],
-    "__props": "d43109ce"
+    "__props": "2f9f16e3"
   },
-  "/ur/blog/tags/hello-6e2": {
+  "/robotics-ai-book/blog/tags/hello-acf": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -173,9 +173,9 @@
         "content": "8717b14a"
       }
     ],
-    "__props": "e3263f28"
+    "__props": "87756a98"
   },
-  "/ur/blog/tags/hola-2c4": {
+  "/robotics-ai-book/blog/tags/hola-f0d": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -186,9 +186,9 @@
         "content": "925b3f96"
       }
     ],
-    "__props": "bc04b2c4"
+    "__props": "cd04b41c"
   },
-  "/ur/blog/welcome-c57": {
+  "/robotics-ai-book/blog/welcome-a77": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -199,87 +199,95 @@
     "sidebar": "814f3328",
     "content": "d9f32620"
   },
-  "/ur/markdown-page-c0a": {
+  "/robotics-ai-book/markdown-page-068": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
     "content": "393be207"
   },
-  "/ur/docs-98e": {
+  "/robotics-ai-book/docs-425": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/ur/docs-78f": {
+  "/robotics-ai-book/docs-036": {
     "__comp": "a7bd4aaa",
-    "__props": "04f2558c"
+    "__props": "a4733394"
   },
-  "/ur/docs-a7b": {
+  "/robotics-ai-book/docs-a8c": {
     "__comp": "a94703ab"
   },
-  "/ur/docs/body/-c40": {
+  "/robotics-ai-book/docs/body-018": {
     "__comp": "17896441",
     "content": "50d178e5"
   },
-  "/ur/docs/brain/-571": {
+  "/robotics-ai-book/docs/brain-04d": {
     "__comp": "17896441",
     "content": "33f8ef06"
   },
-  "/ur/docs/category/tutorial---basics-730": {
+  "/robotics-ai-book/docs/category/tutorial---basics-a63": {
     "__comp": "14eb3368",
-    "__props": "5555825e"
+    "__props": "6264287f"
   },
-  "/ur/docs/category/tutorial---extras-e59": {
+  "/robotics-ai-book/docs/category/tutorial---extras-9ac": {
     "__comp": "14eb3368",
-    "__props": "9198a85b"
+    "__props": "2718a1b5"
   },
-  "/ur/docs/edge/-cbb": {
+  "/robotics-ai-book/docs/edge-5e7": {
     "__comp": "17896441",
     "content": "144960c5"
   },
-  "/ur/docs/foundations/-291": {
+  "/robotics-ai-book/docs/foundations-9df": {
     "__comp": "17896441",
-    "content": "b99ebf8a"
+    "content": "e33300dd"
   },
-  "/ur/docs/intro-793": {
+  "/robotics-ai-book/docs/hardware-lab-1e0": {
+    "__comp": "17896441",
+    "content": "5d1bb790"
+  },
+  "/robotics-ai-book/docs/intro-d05": {
     "__comp": "17896441",
     "content": "0e384e19"
   },
-  "/ur/docs/tutorial-basics/congratulations-7f0": {
+  "/robotics-ai-book/docs/module-1-robotic-nervous-system-fb6": {
+    "__comp": "17896441",
+    "content": "3d2f0381"
+  },
+  "/robotics-ai-book/docs/tutorial-basics/congratulations-963": {
     "__comp": "17896441",
     "content": "822bd8ab"
   },
-  "/ur/docs/tutorial-basics/create-a-blog-post-05f": {
+  "/robotics-ai-book/docs/tutorial-basics/create-a-blog-post-50c": {
     "__comp": "17896441",
     "content": "533a09ca"
   },
-  "/ur/docs/tutorial-basics/create-a-document-b2e": {
+  "/robotics-ai-book/docs/tutorial-basics/create-a-document-1d9": {
     "__comp": "17896441",
     "content": "1e4232ab"
   },
-  "/ur/docs/tutorial-basics/create-a-page-397": {
+  "/robotics-ai-book/docs/tutorial-basics/create-a-page-8c9": {
     "__comp": "17896441",
     "content": "5c868d36"
   },
-  "/ur/docs/tutorial-basics/deploy-your-site-a88": {
+  "/robotics-ai-book/docs/tutorial-basics/deploy-your-site-aef": {
     "__comp": "17896441",
     "content": "f55d3e7a"
   },
-  "/ur/docs/tutorial-basics/markdown-features-7a8": {
+  "/robotics-ai-book/docs/tutorial-basics/markdown-features-d6c": {
     "__comp": "17896441",
     "content": "18c41134"
   },
-  "/ur/docs/tutorial-extras/manage-docs-versions-7b8": {
+  "/robotics-ai-book/docs/tutorial-extras/manage-docs-versions-63d": {
     "__comp": "17896441",
     "content": "dff1c289"
   },
-  "/ur/docs/tutorial-extras/translate-your-site-114": {
+  "/robotics-ai-book/docs/tutorial-extras/translate-your-site-cb9": {
     "__comp": "17896441",
     "content": "e44a2883"
   },
-  "/ur/-f17": {
+  "/robotics-ai-book/-3a8": {
     "__comp": "1df93b7f",
     "__context": {
       "plugin": "a7456010"

@@ -1,88 +1,98 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/ur/docs",
+      "path": "/robotics-ai-book/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/ur/docs",
+          "path": "/robotics-ai-book/docs",
           "mainDocId": "foundations/index",
           "docs": [
             {
               "id": "body/index",
-              "path": "/ur/docs/body/",
+              "path": "/robotics-ai-book/docs/body/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "brain/index",
-              "path": "/ur/docs/brain/",
+              "path": "/robotics-ai-book/docs/brain/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "edge/index",
-              "path": "/ur/docs/edge/",
+              "path": "/robotics-ai-book/docs/edge/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "foundations/index",
-              "path": "/ur/docs/foundations/",
+              "path": "/robotics-ai-book/docs/foundations/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hardware-lab/index",
+              "path": "/robotics-ai-book/docs/hardware-lab/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/ur/docs/intro",
+              "path": "/robotics-ai-book/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "module-1-robotic-nervous-system/index",
+              "path": "/robotics-ai-book/docs/module-1-robotic-nervous-system/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/congratulations",
-              "path": "/ur/docs/tutorial-basics/congratulations",
+              "path": "/robotics-ai-book/docs/tutorial-basics/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/create-a-blog-post",
-              "path": "/ur/docs/tutorial-basics/create-a-blog-post",
+              "path": "/robotics-ai-book/docs/tutorial-basics/create-a-blog-post",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/create-a-document",
-              "path": "/ur/docs/tutorial-basics/create-a-document",
+              "path": "/robotics-ai-book/docs/tutorial-basics/create-a-document",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/create-a-page",
-              "path": "/ur/docs/tutorial-basics/create-a-page",
+              "path": "/robotics-ai-book/docs/tutorial-basics/create-a-page",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/deploy-your-site",
-              "path": "/ur/docs/tutorial-basics/deploy-your-site",
+              "path": "/robotics-ai-book/docs/tutorial-basics/deploy-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/markdown-features",
-              "path": "/ur/docs/tutorial-basics/markdown-features",
+              "path": "/robotics-ai-book/docs/tutorial-basics/markdown-features",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-extras/manage-docs-versions",
-              "path": "/ur/docs/tutorial-extras/manage-docs-versions",
+              "path": "/robotics-ai-book/docs/tutorial-extras/manage-docs-versions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-extras/translate-your-site",
-              "path": "/ur/docs/tutorial-extras/translate-your-site",
+              "path": "/robotics-ai-book/docs/tutorial-extras/translate-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/tutorial---basics",
-              "path": "/ur/docs/category/tutorial---basics",
+              "path": "/robotics-ai-book/docs/category/tutorial---basics",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/tutorial---extras",
-              "path": "/ur/docs/category/tutorial---extras",
+              "path": "/robotics-ai-book/docs/category/tutorial---extras",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -90,8 +100,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/ur/docs/foundations/",
-                "label": "فزیکل اے آئی کی بنیادیں (Foundations)"
+                "path": "/robotics-ai-book/docs/foundations/",
+                "label": "Foundations of Physical AI"
               }
             }
           }

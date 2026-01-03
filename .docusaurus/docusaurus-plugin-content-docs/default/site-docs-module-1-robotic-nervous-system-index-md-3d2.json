@@ -1,0 +1,20 @@
+{
+  "id": "module-1-robotic-nervous-system/index",
+  "title": "Module 1: Robotic Nervous System",
+  "description": "This module covers the fundamental communication layer of a robot: the Middleware. We focus on ROS 2 (Robot Operating System), which acts as the \"nervous system,\" carrying signals from sensors to the brain and commands from the brain to the motors.",
+  "source": "@site/docs/module-1-robotic-nervous-system/index.md",
+  "sourceDirName": "module-1-robotic-nervous-system",
+  "slug": "/module-1-robotic-nervous-system/",
+  "permalink": "/robotics-ai-book/docs/module-1-robotic-nervous-system/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/module-1-robotic-nervous-system/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hardware & Lab Setup",
+    "permalink": "/robotics-ai-book/docs/hardware-lab/"
+  }
+}

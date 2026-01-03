@@ -5,7 +5,7 @@
     "ur"
   ],
   "path": "i18n",
-  "currentLocale": "ur",
+  "currentLocale": "en",
   "localeConfigs": {
     "en": {
       "label": "English",
@@ -14,8 +14,8 @@
       "calendar": "gregory",
       "path": "en",
       "translate": false,
-      "url": "https://robotics-ai-book.pages.dev",
-      "baseUrl": "/"
+      "url": "https://owaismukhtarkhan.github.io",
+      "baseUrl": "/robotics-ai-book/"
     },
     "ur": {
       "label": "اردو",
@@ -24,8 +24,8 @@
       "calendar": "gregory",
       "path": "ur",
       "translate": true,
-      "url": "https://robotics-ai-book.pages.dev",
-      "baseUrl": "/ur/"
+      "url": "https://owaismukhtarkhan.github.io",
+      "baseUrl": "/robotics-ai-book/ur/"
     }
   }
 }

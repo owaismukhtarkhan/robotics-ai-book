@@ -1,0 +1,24 @@
+{
+  "id": "hardware-lab/index",
+  "title": "Hardware & Lab Setup",
+  "description": "Building a Physical AI system requires a balance between simulation power and edge intelligence.",
+  "source": "@site/docs/hardware-lab/index.md",
+  "sourceDirName": "hardware-lab",
+  "slug": "/hardware-lab/",
+  "permalink": "/robotics-ai-book/docs/hardware-lab/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/hardware-lab/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Edge Intelligence",
+    "permalink": "/robotics-ai-book/docs/edge/"
+  },
+  "next": {
+    "title": "Module 1: Robotic Nervous System",
+    "permalink": "/robotics-ai-book/docs/module-1-robotic-nervous-system/"
+  }
+}

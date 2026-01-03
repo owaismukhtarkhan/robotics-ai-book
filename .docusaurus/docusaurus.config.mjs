@@ -28,10 +28,11 @@ export default {
     },
     "experimental_router": "browser"
   },
-  "url": "https://robotics-ai-book.pages.dev",
-  "baseUrl": "/ur/",
+  "url": "https://owaismukhtarkhan.github.io",
+  "baseUrl": "/robotics-ai-book/",
   "organizationName": "owaismukhtarkhan",
   "projectName": "robotics-ai-book",
+  "trailingSlash": false,
   "onBrokenLinks": "throw",
   "i18n": {
     "defaultLocale": "en",

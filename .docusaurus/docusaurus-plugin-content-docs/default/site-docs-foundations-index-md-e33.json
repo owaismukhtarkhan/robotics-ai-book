@@ -5,7 +5,7 @@
   "source": "@site/docs/foundations/index.md",
   "sourceDirName": "foundations",
   "slug": "/foundations/",
-  "permalink": "/docs/foundations/",
+  "permalink": "/robotics-ai-book/docs/foundations/",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/foundations/index.md",
@@ -18,7 +18,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Tutorial Intro",
-    "permalink": "/docs/intro"
+    "title": "Physical AI & Humanoid Robotics",
+    "permalink": "/robotics-ai-book/docs/intro"
   }
 }
