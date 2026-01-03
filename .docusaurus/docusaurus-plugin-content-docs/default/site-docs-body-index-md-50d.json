@@ -1,0 +1,24 @@
+{
+  "id": "body/index",
+  "title": "The Body",
+  "description": "Overview of Simulation (ROS 2, Isaac, Unity).",
+  "source": "@site/docs/body/index.md",
+  "sourceDirName": "body",
+  "slug": "/body/",
+  "permalink": "/ur/docs/body/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/body/index.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/ur/docs/tutorial-extras/translate-your-site"
+  },
+  "next": {
+    "title": "The Brain",
+    "permalink": "/ur/docs/brain/"
+  }
+}

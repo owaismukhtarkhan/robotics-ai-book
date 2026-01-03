@@ -1,0 +1,24 @@
+{
+  "id": "foundations/index",
+  "title": "فزیکل اے آئی کی بنیادیں (Foundations)",
+  "description": "فزیکل اے آئی (Physical AI) اور ہیومنائیڈ روبوٹکس (Humanoid Robotics) کے بنیادی سیکشن میں خوش آمدید۔ یہ ماڈیول اس بات کی وضاحت کرتا ہے کہ مشینیں کس طرح ڈیجیٹل سوچ سے فزیکل دنیا کے تعامل (Interaction) تک کا سفر طے کرتی ہیں۔",
+  "source": "@site/i18n/ur/docusaurus-plugin-content-docs/current/foundations/index.md",
+  "sourceDirName": "foundations",
+  "slug": "/foundations/",
+  "permalink": "/ur/docs/foundations/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/foundations/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "فزیکل اے آئی کی بنیادیں (Foundations)",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Tutorial Intro",
+    "permalink": "/ur/docs/intro"
+  }
+}

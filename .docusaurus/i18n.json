@@ -1,0 +1,31 @@
+{
+  "defaultLocale": "en",
+  "locales": [
+    "en",
+    "ur"
+  ],
+  "path": "i18n",
+  "currentLocale": "ur",
+  "localeConfigs": {
+    "en": {
+      "label": "English",
+      "direction": "ltr",
+      "htmlLang": "en",
+      "calendar": "gregory",
+      "path": "en",
+      "translate": false,
+      "url": "https://robotics-ai-book.pages.dev",
+      "baseUrl": "/"
+    },
+    "ur": {
+      "label": "اردو",
+      "direction": "rtl",
+      "htmlLang": "ur",
+      "calendar": "gregory",
+      "path": "ur",
+      "translate": true,
+      "url": "https://robotics-ai-book.pages.dev",
+      "baseUrl": "/ur/"
+    }
+  }
+}
