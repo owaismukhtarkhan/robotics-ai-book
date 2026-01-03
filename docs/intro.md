@@ -29,16 +29,16 @@ By the end of this course, students will achieve:
 
 | Week | Module | Topic | Key Deliverable |
 | :--- | :--- | :--- | :--- |
-| 1 | Module 1 | Robotic Nervous System | ROS 2 Environment Setup |
-| 2 | Module 1 | Nodes & Communication | Pub/Sub Logic |
-| 3 | Module 1 | URDF & Mechanics | Robot Digital Skeleton |
-| 4 | Module 2 | Digital Twins | Gazebo Physics Setup |
-| 5 | Module 2 | Sensor Fusion | Virtual LIDAR/IMU Data |
-| 6 | Module 3 | Computer Vision | OpenCV & CUDA Integration |
-| 7 | Module 3 | VSLAM & Navigation | Autonomous Path Planning |
-| 8 | Module 3 | NVIDIA Isaac Sim | Photo-realistic Rerendering |
-| 9 | Module 4 | Cognitive Planning | LLM Task Decomposition |
-| 10 | Module 4 | Motion Control | Reinforcement Learning |
-| 11 | Module 4 | VLA Models | Multimodal Task Execution |
-| 12 | Module 4 | Capstone Project | Final Physical Integration |
-| 13 | Final | Lab Demo | Live Humanoid Demonstration |
+| 1 | [Module 1](/docs/module-1-robotic-nervous-system/) | Robotic Nervous System | ROS 2 Environment Setup |
+| 2 | [Module 1](/docs/module-1-robotic-nervous-system/) | Nodes & Communication | Pub/Sub Logic |
+| 3 | [Module 1](/docs/module-1-robotic-nervous-system/) | URDF & Mechanics | Robot Digital Skeleton |
+| 4 | [Module 2](/docs/module-2-digital-twin/) | Digital Twins | Gazebo Physics Setup |
+| 5 | [Module 2](/docs/module-2-digital-twin/) | [Sensor Fusion](/docs/module-2-digital-twin/sensors) | Virtual LIDAR/IMU Data |
+| 6 | [Module 3](/docs/module-3-ai-robot-brain/) | Computer Vision | OpenCV & CUDA Integration |
+| 7 | [Module 3](/docs/module-3-ai-robot-brain/) | VSLAM & Navigation | Autonomous Path Planning |
+| 8 | [Module 3](/docs/module-3-ai-robot-brain/) | NVIDIA Isaac Sim | Photo-realistic Rerendering |
+| 9 | [Module 4](/docs/module-4-vla-capstone/) | Cognitive Planning | LLM Task Decomposition |
+| 10 | [Module 4](/docs/module-4-vla-capstone/) | Motion Control | Reinforcement Learning |
+| 11 | [Module 4](/docs/module-4-vla-capstone/) | VLA Models | Multimodal Task Execution |
+| 12 | [Module 4](/docs/module-4-vla-capstone/) | Capstone Project | Final Physical Integration |
+| 13 | [Hardware Lab](/docs/hardware-lab/) | Lab Demo | Live Humanoid Demonstration |
