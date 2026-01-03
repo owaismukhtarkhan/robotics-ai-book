@@ -2,46 +2,43 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Physical AI & Humanoid Robotics
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the definitive guide and technical textbook for the **Physical AI & Humanoid Robotics** curriculum. This course bridges the gap between digital intelligence (LLMs) and embodied movement in the real world.
 
-## Getting Started
+## Physical AI vs. Digital AI
 
-Get started by **creating a new site**.
+Traditional AI, or **Digital AI**, exists within the confines of browsers and servers. It processes text, code, and images but lacks a physical presence.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+**Physical AI** (or Embodied AI) is the engineering of systems that can perceive, reason about, and interact with the physical world. It must account for:
+- **Physics:** Gravity, friction, and mass.
+- **Safety:** Real-time obstacle avoidance and human-robot interaction.
+- **Latency:** Decisions must be made in milliseconds to maintain balance and control.
 
-### What you'll need
+## Learning Outcomes
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+By the end of this course, students will achieve:
+1. **ROS 2 Mastery:** Architecting decentralized robotic communication systems.
+2. **Digital Twin Proficiency:** Building high-fidelity simulations in Gazebo and NVIDIA Isaac.
+3. **Computer Vision & VSLAM:** Enabling robots to see and map their environment.
+4. **Isaac AI Integration:** Deploying neural networks for robotic perception.
+5. **Humanoid Kinematics:** Understanding URDF, joints, and inverse kinematics.
+6. **VLA Deployment:** Implementing Vision-Language-Action models for conversational robotics.
 
-## Generate a new site
+## 13-Week Roadmap
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+| Week | Module | Topic | Key Deliverable |
+| :--- | :--- | :--- | :--- |
+| 1 | Module 1 | Robotic Nervous System | ROS 2 Environment Setup |
+| 2 | Module 1 | Nodes & Communication | Pub/Sub Logic |
+| 3 | Module 1 | URDF & Mechanics | Robot Digital Skeleton |
+| 4 | Module 2 | Digital Twins | Gazebo Physics Setup |
+| 5 | Module 2 | Sensor Fusion | Virtual LIDAR/IMU Data |
+| 6 | Module 3 | Computer Vision | OpenCV & CUDA Integration |
+| 7 | Module 3 | VSLAM & Navigation | Autonomous Path Planning |
+| 8 | Module 3 | NVIDIA Isaac Sim | Photo-realistic Rerendering |
+| 9 | Module 4 | Cognitive Planning | LLM Task Decomposition |
+| 10 | Module 4 | Motion Control | Reinforcement Learning |
+| 11 | Module 4 | VLA Models | Multimodal Task Execution |
+| 12 | Module 4 | Capstone Project | Final Physical Integration |
+| 13 | Final | Lab Demo | Live Humanoid Demonstration |
