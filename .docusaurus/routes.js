@@ -114,15 +114,15 @@ export default [
   },
   {
     path: '/robotics-ai-book/docs',
-    component: ComponentCreator('/robotics-ai-book/docs', 'e0e'),
+    component: ComponentCreator('/robotics-ai-book/docs', '647'),
     routes: [
       {
         path: '/robotics-ai-book/docs',
-        component: ComponentCreator('/robotics-ai-book/docs', '0b0'),
+        component: ComponentCreator('/robotics-ai-book/docs', 'c13'),
         routes: [
           {
             path: '/robotics-ai-book/docs',
-            component: ComponentCreator('/robotics-ai-book/docs', '2ae'),
+            component: ComponentCreator('/robotics-ai-book/docs', '314'),
             routes: [
               {
                 path: '/robotics-ai-book/docs/hardware-lab',
@@ -150,9 +150,8 @@ export default [
               },
               {
                 path: '/robotics-ai-book/docs/module-2-digital-twin/sensors',
-                component: ComponentCreator('/robotics-ai-book/docs/module-2-digital-twin/sensors', '569'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/robotics-ai-book/docs/module-2-digital-twin/sensors', '7f0'),
+                exact: true
               },
               {
                 path: '/robotics-ai-book/docs/module-3-ai-robot-brain',

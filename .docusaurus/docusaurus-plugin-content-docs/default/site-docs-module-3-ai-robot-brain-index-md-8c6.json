@@ -1,7 +1,7 @@
 {
   "id": "module-3-ai-robot-brain/index",
-  "title": "Module 3: The AI-Robot Brain",
-  "description": "This module focuses on Embodied Intelligence. We transition from basic mechanics to high-level perception and path planning using NVIDIA's ecosystem.",
+  "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac™)",
+  "description": "Focus: Advanced perception and training.",
   "source": "@site/docs/module-3-ai-robot-brain/index.md",
   "sourceDirName": "module-3-ai-robot-brain",
   "slug": "/module-3-ai-robot-brain/",
@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Synthetic Sensors in Simulation",
-    "permalink": "/robotics-ai-book/docs/module-2-digital-twin/sensors"
+    "title": "Module 2: The Digital Twin (Gazebo & Unity)",
+    "permalink": "/robotics-ai-book/docs/module-2-digital-twin/"
   },
   "next": {
     "title": "Module 4: Vision-Language-Action (VLA)",

@@ -95,14 +95,8 @@ export default {
       },
       "items": [
         {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Textbook"
-        },
-        {
-          "to": "/blog",
-          "label": "News",
+          "to": "/docs/intro",
+          "label": "Textbook",
           "position": "left"
         },
         {
@@ -143,20 +137,12 @@ export default {
             {
               "label": "Hardware Lab",
               "to": "/docs/hardware-lab/"
-            },
-            {
-              "label": "GitHub Discussions",
-              "href": "https://github.com/owaismukhtarkhan/robotics-ai-book/discussions"
             }
           ]
         },
         {
           "title": "More",
           "items": [
-            {
-              "label": "News",
-              "to": "/blog"
-            },
             {
               "label": "GitHub",
               "href": "https://github.com/owaismukhtarkhan/robotics-ai-book"

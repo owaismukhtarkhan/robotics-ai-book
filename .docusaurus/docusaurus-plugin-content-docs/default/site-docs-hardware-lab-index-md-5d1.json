@@ -1,7 +1,7 @@
 {
   "id": "hardware-lab/index",
   "title": "Hardware & Lab Setup",
-  "description": "Building a Physical AI system requires a balance between simulation power and edge intelligence.",
+  "description": "Hardware Requirements",
   "source": "@site/docs/hardware-lab/index.md",
   "sourceDirName": "hardware-lab",
   "slug": "/hardware-lab/",
@@ -14,11 +14,7 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Physical AI & Humanoid Robotics",
-    "permalink": "/robotics-ai-book/docs/intro"
-  },
-  "next": {
-    "title": "Module 1: Robotic Nervous System",
-    "permalink": "/robotics-ai-book/docs/module-1-robotic-nervous-system/"
+    "title": "Module 4: Vision-Language-Action (VLA)",
+    "permalink": "/robotics-ai-book/docs/module-4-vla-capstone/"
   }
 }

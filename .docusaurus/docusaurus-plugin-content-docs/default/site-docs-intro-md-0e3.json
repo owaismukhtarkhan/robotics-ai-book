@@ -1,7 +1,7 @@
 {
   "id": "intro",
   "title": "Physical AI & Humanoid Robotics",
-  "description": "Welcome to the definitive guide and technical textbook for the Physical AI & Humanoid Robotics curriculum. This course bridges the gap between digital intelligence (LLMs) and embodied movement in the real world.",
+  "description": "Focus and Theme: AI Systems in the Physical World. Embodied Intelligence.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Hardware & Lab Setup",
-    "permalink": "/robotics-ai-book/docs/hardware-lab/"
+    "title": "Module 1: The Robotic Nervous System (ROS 2)",
+    "permalink": "/robotics-ai-book/docs/module-1-robotic-nervous-system/"
   }
 }

@@ -1,7 +1,7 @@
 {
   "id": "module-4-vla-capstone/index",
   "title": "Module 4: Vision-Language-Action (VLA)",
-  "description": "The final module explores the convergence of Large Language Models (LLMs) and physical robotics, creating robots that can understand and execute human instructions.",
+  "description": "Focus: The convergence of LLMs and Robotics.",
   "source": "@site/docs/module-4-vla-capstone/index.md",
   "sourceDirName": "module-4-vla-capstone",
   "slug": "/module-4-vla-capstone/",
@@ -14,7 +14,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Module 3: The AI-Robot Brain",
+    "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac™)",
     "permalink": "/robotics-ai-book/docs/module-3-ai-robot-brain/"
+  },
+  "next": {
+    "title": "Hardware & Lab Setup",
+    "permalink": "/robotics-ai-book/docs/hardware-lab/"
   }
 }

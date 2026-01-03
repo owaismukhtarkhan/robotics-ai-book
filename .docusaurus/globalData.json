@@ -32,8 +32,7 @@
             },
             {
               "id": "module-2-digital-twin/sensors",
-              "path": "/robotics-ai-book/docs/module-2-digital-twin/sensors",
-              "sidebar": "tutorialSidebar"
+              "path": "/robotics-ai-book/docs/module-2-digital-twin/sensors"
             },
             {
               "id": "module-3-ai-robot-brain/index",

@@ -1,7 +1,7 @@
 {
   "id": "module-1-robotic-nervous-system/index",
-  "title": "Module 1: Robotic Nervous System",
-  "description": "This module covers the fundamental communication layer of a robot: the Middleware. We focus on ROS 2 (Robot Operating System), which acts as the \"nervous system,\" carrying signals from sensors to the brain and commands from the brain to the motors.",
+  "title": "Module 1: The Robotic Nervous System (ROS 2)",
+  "description": "Focus: Middleware for robot control.",
   "source": "@site/docs/module-1-robotic-nervous-system/index.md",
   "sourceDirName": "module-1-robotic-nervous-system",
   "slug": "/module-1-robotic-nervous-system/",
@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Hardware & Lab Setup",
-    "permalink": "/robotics-ai-book/docs/hardware-lab/"
+    "title": "Physical AI & Humanoid Robotics",
+    "permalink": "/robotics-ai-book/docs/intro"
   },
   "next": {
-    "title": "Module 2: The Digital Twin",
+    "title": "Module 2: The Digital Twin (Gazebo & Unity)",
     "permalink": "/robotics-ai-book/docs/module-2-digital-twin/"
   }
 }

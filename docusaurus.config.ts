@@ -93,12 +93,10 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
+          to: '/docs/intro',
           label: 'Textbook',
+          position: 'left',
         },
-        {to: '/blog', label: 'News', position: 'left'},
         {
           href: 'https://github.com/owaismukhtarkhan/robotics-ai-book',
           label: 'GitHub',
@@ -137,19 +135,11 @@ const config: Config = {
               label: 'Hardware Lab',
               to: '/docs/hardware-lab/',
             },
-            {
-              label: 'GitHub Discussions',
-              href: 'https://github.com/owaismukhtarkhan/robotics-ai-book/discussions',
-            },
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'News',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/owaismukhtarkhan/robotics-ai-book',

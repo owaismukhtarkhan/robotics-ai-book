@@ -1,7 +1,7 @@
 {
   "id": "module-2-digital-twin/index",
-  "title": "Module 2: The Digital Twin",
-  "description": "In this module, we explore the world of high-fidelity robotic simulation. A Digital Twin is a virtual representation of a physical robot that allows for safe, cost-effective testing of algorithms before deployment.",
+  "title": "Module 2: The Digital Twin (Gazebo & Unity)",
+  "description": "Focus: Physics simulation and environment building.",
   "source": "@site/docs/module-2-digital-twin/index.md",
   "sourceDirName": "module-2-digital-twin",
   "slug": "/module-2-digital-twin/",
@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Module 1: Robotic Nervous System",
+    "title": "Module 1: The Robotic Nervous System (ROS 2)",
     "permalink": "/robotics-ai-book/docs/module-1-robotic-nervous-system/"
   },
   "next": {
-    "title": "Synthetic Sensors in Simulation",
-    "permalink": "/robotics-ai-book/docs/module-2-digital-twin/sensors"
+    "title": "Module 3: The AI-Robot Brain (NVIDIA Isaac™)",
+    "permalink": "/robotics-ai-book/docs/module-3-ai-robot-brain/"
   }
 }
