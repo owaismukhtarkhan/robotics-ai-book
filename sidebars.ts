@@ -21,41 +21,18 @@ const sidebars: SidebarsConfig = {
   // Manual sidebar structure
   tutorialSidebar: [
     'intro',
+    'module-1-robotic-nervous-system/index', // Module 1: Single page, direct link
     {
       type: 'category',
-      label: 'Module 1: The Robotic Nervous System (ROS 2)',
+      label: 'Module 2: The Digital Twin',
       items: [
-        'module-1-robotic-nervous-system/index',
+        'module-2-digital-twin/index', // Main module page
+        'module-2-digital-twin/sensors', // Sub-page
       ],
     },
-    {
-      type: 'category',
-      label: 'Module 2: The Digital Twin (Gazebo & Unity)',
-      items: [
-        'module-2-digital-twin/index',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Module 3: The AI-Robot Brain (NVIDIA Isaac™)',
-      items: [
-        'module-3-ai-robot-brain/index',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Module 4: Vision-Language-Action (VLA)',
-      items: [
-        'module-4-vla-capstone/index',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Hardware & Lab Setup',
-      items: [
-        'hardware-lab/index',
-      ],
-    },
+    'module-3-ai-robot-brain/index', // Module 3: Single page, direct link
+    'module-4-vla-capstone/index', // Module 4: Single page, direct link
+    'hardware-lab/index', // Hardware Lab: Single page, direct link
   ],
 };
 

@@ -1,0 +1,10 @@
+{
+  "version.label": {
+    "message": "اگلا",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Module 2: The Digital Twin": {
+    "message": "ماڈیول 2: ڈیجیٹل ٹوئن",
+    "description": "The label for category 'Module 2: The Digital Twin' in sidebar 'tutorialSidebar'"
+  }
+}

@@ -28,3 +28,58 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* RTL Support for Urdu language */
+html[dir='rtl'] {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Specific RTL adjustments for Docusaurus components */
+html[dir='rtl'] .navbar {
+  text-align: right;
+}
+
+html[dir='rtl'] .navbar__items--right {
+  margin-left: 0;
+  margin-right: 1rem;
+}
+
+html[dir='rtl'] .navbar__items--left {
+  margin-right: 0;
+  margin-left: 1rem;
+}
+
+html[dir='rtl'] .menu__list-item {
+  text-align: right;
+}
+
+html[dir='rtl'] .pagination-nav__label {
+  text-align: right;
+}
+
+html[dir='rtl'] .table-of-contents__link {
+  text-align: right;
+}
+
+html[dir='rtl'] .theme-edit-this-page {
+  text-align: right;
+}
+
+/* Adjust direction for code blocks */
+html[dir='rtl'] pre,
+html[dir='rtl'] code {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Adjust sidebar for RTL */
+html[dir='rtl'] .sidebar {
+  right: 0;
+  left: auto;
+}
+
+html[dir='rtl'] .docSidebarContainer {
+  border-right: none;
+  border-left: 1px solid var(--ifm-toc-border-color);
+}

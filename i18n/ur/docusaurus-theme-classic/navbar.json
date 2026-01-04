@@ -1,0 +1,18 @@
+{
+  "title": {
+    "message": "فزیکل AI کتاب",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "فیزیکل AI کا لوگو",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Textbook": {
+    "message": "کتب درس",
+    "description": "Navbar item with label Textbook"
+  },
+  "item.label.GitHub": {
+    "message": "گیٹ ہب",
+    "description": "Navbar item with label GitHub"
+  }
+}

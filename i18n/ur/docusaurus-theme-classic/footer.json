@@ -1,0 +1,42 @@
+{
+  "link.title.Curriculum": {
+    "message": "نصاب",
+    "description": "The title of the footer links column with title=Curriculum in the footer"
+  },
+  "link.title.Resources": {
+    "message": "وسائل",
+    "description": "The title of the footer links column with title=Resources in the footer"
+  },
+  "link.title.More": {
+    "message": "مزید",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Module 1: Nervous System": {
+    "message": "ماڈیول 1: اعصابی نظام",
+    "description": "The label of footer link with label=Module 1: Nervous System linking to /docs/module-1-robotic-nervous-system/"
+  },
+  "link.item.label.Module 2: Digital Twin": {
+    "message": "ماڈیول 2: ڈیجیٹل ٹوئن",
+    "description": "The label of footer link with label=Module 2: Digital Twin linking to /docs/module-2-digital-twin/"
+  },
+  "link.item.label.Module 3: AI Brain": {
+    "message": "ماڈیول 3: AI دماغ",
+    "description": "The label of footer link with label=Module 3: AI Brain linking to /docs/module-3-ai-robot-brain/"
+  },
+  "link.item.label.Module 4: VLA Capstone": {
+    "message": "ماڈیول 4: VLA کیپسٹون",
+    "description": "The label of footer link with label=Module 4: VLA Capstone linking to /docs/module-4-vla-capstone/"
+  },
+  "link.item.label.Hardware Lab": {
+    "message": "ہارڈ ویئر لیب",
+    "description": "The label of footer link with label=Hardware Lab linking to /docs/hardware-lab/"
+  },
+  "link.item.label.GitHub": {
+    "message": "گیٹ ہب",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/owaismukhtarkhan/robotics-ai-book"
+  },
+  "copyright": {
+    "message": "کاپی رائٹ © 2026 اویس مختار خان. ڈوکوسورس کے ساتھ تیار کیا گیا.",
+    "description": "The footer copyright"
+  }
+}

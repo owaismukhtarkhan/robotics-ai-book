@@ -98,6 +98,10 @@ const config: Config = {
           position: 'left',
         },
         {
+          type: 'localeDropdown',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/owaismukhtarkhan/robotics-ai-book',
           label: 'GitHub',
           position: 'right',
