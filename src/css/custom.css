@@ -4,6 +4,9 @@
  * work well for content-centric websites.
  */
 
+/* Import Urdu/Arabic font for RTL languages */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;700&display=swap');
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #2e8555;
@@ -31,8 +34,7 @@
 
 /* RTL Support for Urdu language */
 html[dir='rtl'] {
-  direction: rtl;
-  text-align: right;
+  font-family: 'Noto Naskh Arabic', serif;
 }
 
 /* Specific RTL adjustments for Docusaurus components */
@@ -73,13 +75,6 @@ html[dir='rtl'] code {
   text-align: left;
 }
 
-/* Adjust sidebar for RTL */
-html[dir='rtl'] .sidebar {
-  right: 0;
-  left: auto;
-}
-
-html[dir='rtl'] .docSidebarContainer {
-  border-right: none;
-  border-left: 1px solid var(--ifm-toc-border-color);
+[lang='ur'] {
+  font-family: 'Noto Naskh Arabic', serif;
 }
