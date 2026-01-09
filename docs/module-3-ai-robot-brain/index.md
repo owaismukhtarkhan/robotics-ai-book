@@ -32,6 +32,13 @@ Advanced navigation specifically designed for humanoid robots:
 - **Dynamic Obstacle Avoidance:** Real-time path adjustment for moving obstacles in human environments.
 - **Terrain Adaptation:** Path planning that considers the robot's ability to navigate various terrains with bipedal locomotion.
 
+:::tip Sim-to-Real Transfer Techniques
+The key challenge in robotics is transferring skills learned in simulation to real robots. Key techniques include:
+- **Domain Randomization:** Varying simulation parameters (textures, lighting, physics) to make models robust to real-world variations.
+- **System Identification:** Measuring real robot dynamics to tune simulation parameters.
+- **Progressive Domain Transfer:** Gradually reducing simulation fidelity while maintaining performance.
+:::
+
 ## Weekly Breakdown
 
 ### Week 8: NVIDIA Isaac SDK and Isaac Sim

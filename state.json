@@ -3,27 +3,41 @@
     "module-1-robotic-nervous-system": {
       "status": "Complete",
       "locales": ["en", "ur"],
-      "last_updated": "2026-01-04"
+      "last_updated": "2026-01-10"
     },
     "module-2-digital-twin": {
       "status": "Complete",
       "locales": ["en", "ur"],
-      "last_updated": "2026-01-04"
+      "last_updated": "2026-01-10"
     },
     "module-3-ai-robot-brain": {
       "status": "Complete",
       "locales": ["en", "ur"],
-      "last_updated": "2026-01-04"
+      "last_updated": "2026-01-10"
     },
     "module-4-vla-capstone": {
       "status": "Complete",
       "locales": ["en", "ur"],
-      "last_updated": "2026-01-04"
+      "last_updated": "2026-01-10"
     },
     "hardware-lab": {
       "status": "Complete",
-      "locales": ["en"],
-      "last_updated": "2026-01-04"
+      "locales": ["en", "ur"],
+      "last_updated": "2026-01-10"
+    }
+  },
+  "phases": {
+    "phase-vii": {
+      "status": "Complete",
+      "name": "Comprehensive Course-Aligned Textbook Construction",
+      "last_updated": "2026-01-10",
+      "details": "Four-module hierarchy established, bilingual sync completed, intro updated with 13-week roadmap, hardware lab guide created"
+    },
+    "phase-viii": {
+      "status": "Initialized",
+      "name": "Advanced Module Ingestion (Simulation, AI Brain, & VLA)",
+      "last_updated": "2026-01-10",
+      "details": "Technical depth added to Modules 2, 3, and 4 with simulation, AI brain, and VLA content, including Mermaid diagrams, weekly breakdowns, and Urdu localization"
     }
   }
 }

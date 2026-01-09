@@ -30,6 +30,28 @@ The Python ROS Client Library (rclpy) allows seamless integration between Python
 - **Node Creation:** How to create Python nodes that can interface with AI agents.
 - **Message Passing:** Techniques for exchanging data between Python AI modules and ROS 2 controllers.
 
+## Python Agent -> rclpy -> ROS 2 Controller Bridge
+
+The following diagram illustrates the bridge between Python AI agents and ROS 2 controllers:
+
+```mermaid
+graph TD
+    A[Python AI Agent] --> B[rclpy Interface]
+    B --> C[ROS 2 Nodes]
+    C --> D[Robot Controllers]
+    D --> E[Physical Robot]
+    E --> F[Sensors]
+    F --> A
+    style A fill:#e1f5fe
+    style D fill:#f3e5f5
+    style E fill:#e8f5e8
+```
+
+This represents the "Perception-Cognition-Action" loop described in the source foundations:
+- **Perception:** Sensors feed data to the Python AI Agent
+- **Cognition:** The Python AI Agent processes and plans actions
+- **Action:** Commands are sent through rclpy to ROS 2 controllers and then to the physical robot
+
 ## Understanding URDF (Unified Robot Description Format) for Humanoids
 
 The **URDF (Unified Robot Description Format)** is the XML skeleton of the robot, particularly important for humanoid robots with complex kinematic structures:
